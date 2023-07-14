@@ -2,8 +2,8 @@ import React from 'react'
 
 const Form = () => {
   return (
-        <section className="relative">
-            <div className="container px-5 py-24 mx-auto">
+        <section id='contact' className="relative">
+            <div className="container px-5 pt-24 pb-52 mx-auto">
                 <div className="flex flex-col text-center w-full mb-12">
                 <h1 className="sm:text-4xl text-3xl font-bold title-font mb-4 font-titleFont">Contactame :)</h1>
                 </div>
