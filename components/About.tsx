@@ -9,7 +9,7 @@ const About = () => {
         <div className="flex flex-col lgl:flex-row gap-16">
           <div className="w-full lgl:w-2/3 text-base text-textDark font-medium flex flex-col gap-4 text-justify">
             <p>Mi nombre es Manuel, este año me recibo de ingeniero y soy desarrollador full-stack.</p>
-            <p>Me apasiona el mundo de la tecnología, siempre me gustó programar y trabajar en proyectos desafiantes que me permitan adquirir nuevos conocimientos y superar mis límites.Estoy siempre en busca de nuevos retos y oportunidades para crecer como <span className="text-textGreen">ingeniero y desarrollador.</span></p>
+            <p>Me apasiona el mundo de la tecnología, siempre me gustó programar y trabajar en proyectos desafiantes que me permitan adquirir nuevos conocimientos y superar mis límites. Estoy siempre en búsqueda de nuevos retos y oportunidades para crecer como <span className="text-textGreen">ingeniero y desarrollador.</span></p>
             <p>¡Gracias por visitar mi portfolio!</p>
             <p>Algunas de las tecnologías que manejo:</p>
             <ul className="max-w-[450px] text-sm font-titleFont grid grid-cols-2 gap-2 mt-6">
