@@ -1,6 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion'
+import Link from 'next/link';
 
 const Banner = () => {
   return (
@@ -34,15 +35,17 @@ const Banner = () => {
         >
             Apasionado por la tecnología. Mi formación en ingeniería me brindó habilidades y experiencia en el campo de Business Intelligence y Data Science, y mi pasión por programar me llevó a desarrollar aplicaciones fullstack y páginas web responsivas, utilizando distintos frameworks. {' '}
         </motion.p>
-
+        
+        <Link href="#about">
         <motion.button
             initial={{ y: 10, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition= {{ duration: 0.5, delay: 0.9 }} 
             className='w-52 h-14 text-sm font-titleFont border border-textGreen rounded-md text-textGreen tracking-wide hover:bg-hoverColor duration-300'
         >
-            Mis proyectos
+            Sobre mí
         </motion.button>
+        </Link>
 
     </section>
   )

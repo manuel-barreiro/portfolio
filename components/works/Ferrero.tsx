@@ -32,7 +32,7 @@ const Ferrero = () => {
                 <span className='text-textGreen mt-1'>
                     <TiArrowForward />
                 </span>
-                Desarrollo de KPIs
+                Desarrollo de KPIs y tableros Power BI
             </li>
         </ul>
     </motion.div>

@@ -18,6 +18,7 @@ function Navbar() {
 
     function handleShowMenu() {
     setShowMenu((prevState) => !prevState)
+    console.log(showMenu)
     }
 
     const handleScroll = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
