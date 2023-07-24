@@ -19,7 +19,7 @@ const Freelance = () => {
             <span className='text-textGreen tracking-wide'>| Freelance</span>
         </h3>
         <p className='text-sm mt-1 font-medium text-textDark'>
-            Enero 2021 - Actualidad
+            Octubre 2022 - Actualidad
         </p>
         <ul className='text-sm mt-3 font-medium text-textDark'>
             <li className='text-base flex gap-2 text-textDark'>
