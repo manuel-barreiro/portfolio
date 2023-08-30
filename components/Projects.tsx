@@ -22,6 +22,7 @@ const Projects = () => {
                   className="w-full h-full object-contain"
                   src={promptopia}
                   alt="promptopia"
+                  priority={true}
                 />
               </div>
             </a>
@@ -74,6 +75,7 @@ const Projects = () => {
                   className="w-full h-full object-contain"
                   src={snaphive}
                   alt="snaphive"
+                  priority={true}
                 />
               </div>
             </a>
@@ -125,6 +127,7 @@ const Projects = () => {
                   className="w-full h-full object-contain"
                   src={coccions}
                   alt="coccions"
+                  priority={true}
                 />
               </div>
             </a>
@@ -174,6 +177,7 @@ const Projects = () => {
                   className="w-full h-full object-contain"
                   src={bluesphere}
                   alt="bluesphere"
+                  priority={true}
                 />
               </div>
             </a>

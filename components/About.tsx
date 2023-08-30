@@ -70,6 +70,7 @@ const About = () => {
                 src='/assets/profile.JPG'
                 className='rounded-full'
                 alt="photo"
+                priority={true}
               />
           </div>
         </div>
