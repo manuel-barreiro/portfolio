@@ -5,6 +5,7 @@ import Link from 'next/link';
 import Image from 'next/image'
 import { motion } from 'framer-motion'
 import { MdOutlineClose } from 'react-icons/md'
+import logo from '/public/logo.png'
 
 import { TbBrandGithub } from "react-icons/tb";
 import { SlSocialTwitter, SlSocialLinkedin } from "react-icons/sl";
@@ -41,7 +42,7 @@ function Navbar() {
     };
 
     return (
-    <div className='w-full shadow-navbarShadow h-20 lg:h-[12vh] sticky top-0 z-50 bg-bodyColor px-4'>
+    <div className='w-full shadow-navbarShadow h-20 lg:h-[12vh] sticky top-0 z-50 bg-bodyColor px-4 md:px-20 lg:px-28 xl:px-32'>
         <div className='max-w-container h-full mx-auto py-1 font-titleFont flex items-center justify-between'>
             <motion.div
                 initial={{ opacity: 0 }}
@@ -49,7 +50,7 @@ function Navbar() {
                 transition= {{ duration: 1 }}
                 className='font-bold uppercase'
             >
-                Manuel Barreiro.
+                <Image src={logo} alt='logo' className='w-20' />
             </motion.div>
             <div className='hidden mdl:inline-flex items-center gap-7'>
                 <ul className='flex text-[13px] gap-7'>

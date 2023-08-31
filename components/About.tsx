@@ -23,13 +23,13 @@ const About = () => {
                 <span className="text-textGreen">
                   <AiFillThunderbolt/>
                 </span>
-                React
+                Python
               </li>
               <li className="flex items-center gap-2">
                 <span className="text-textGreen">
                   <AiFillThunderbolt/>
                 </span>
-                PowerBI
+                React
               </li>
               <li className="flex items-center gap-2">
                 <span className="text-textGreen">
@@ -41,25 +41,25 @@ const About = () => {
                 <span className="text-textGreen">
                   <AiFillThunderbolt/>
                 </span>
-                Next.js
+                Next.js 13
               </li>
               <li className="flex items-center gap-2">
                 <span className="text-textGreen">
                   <AiFillThunderbolt/>
                 </span>
-                Node.js
+                MySQL
               </li>
               <li className="flex items-center gap-2">
                 <span className="text-textGreen">
                   <AiFillThunderbolt/>
                 </span>
-                SQL
+                Tailwind CSS
               </li>
               <li className="flex items-center gap-2">
                 <span className="text-textGreen">
                   <AiFillThunderbolt/>
                 </span>
-                Python
+                Power BI
               </li>
             </ul>
           </div>

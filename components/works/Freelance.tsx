@@ -32,7 +32,7 @@ const Freelance = () => {
                 <span className='text-textGreen mt-1'>
                     <TiArrowForward />
                 </span>
-                Manejo de bases de datos (MongoDB, MySQL, PostgreSQL, FireBase)
+                Manejo de bases de datos (MongoDB, MySQL, etc.)
             </li>
         </ul>
     </motion.div>
