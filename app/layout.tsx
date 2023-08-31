@@ -33,7 +33,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className={`${inter.variable} ${montserrat.variable} no-scrollbar`}>
+    <html lang="en" className={`${inter.variable} ${montserrat.variable}`}>
       <body>
         {children}
       </body>

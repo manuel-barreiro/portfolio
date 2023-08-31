@@ -1,18 +1,38 @@
+'use client';
+
 import { power, boxmoment, bluesphere, coccions, promptopia, snaphive } from "@/public"
 import SectionTitle from "./SectionTitle"
 import Image from "next/image"
 import { TbBrandGithub } from "react-icons/tb"
 import { RxOpenInNewWindow } from "react-icons/rx"
+import { motion } from "framer-motion";
 
 const Projects = () => {
+
+  const rightVariant = {
+    initial: { x: -50, opacity: 0 },
+    animate:{ x: 0, opacity: 1 },      
+  }
+
+  const leftVariant = {
+    initial: { x: 50, opacity: 0 },
+    animate:{ x: 0, opacity: 1 },      
+  }
+
   return (
     <section id='projects' className='max-w-contentContainer mx-auto lgl:px-20 py-24'>
       <SectionTitle title='Proyectos recientes' />
       <div className="w-full flex flex-col items-center justify-between gap-16 mt-5">
 
         {/* Power Consultant */}
-        <div className="w-full flex flex-col items-center justify-center gap-28 mt-10">
-          <div className="flex flex-col xl:flex-row gap-6">
+        <motion.div
+          variants={leftVariant}
+          initial="initial"
+          whileInView="animate"
+          viewport={{ once: true }}
+          transition= {{ duration: 0.5, delay: 0.5 }}
+          className="w-full flex flex-col items-center justify-center gap-28 mt-10">
+          <div className="flex flex-col xl:flex-row gap-4">
             <a
               className="w-full xl:w-1/2 h-auto relative group"
               href="https://powerconsultant.com.ar/" target="_blank"
@@ -27,7 +47,7 @@ const Projects = () => {
               </div>
             </a>
 
-            <div className="w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-end text-right xl:-ml-16 z-10">
+            <div className="w-full xl:w-1/2 flex flex-col gap-4 lgl:justify-between items-end text-right xl:-ml-16 z-10">
               <p className="font-titleFont text-textGreen text-sm tracking-wide">
                 Landing page & Product Catalog
               </p>
@@ -60,11 +80,17 @@ const Projects = () => {
               </div>
             </div>
           </div>
-        </div>
+        </motion.div>
 
         {/* Box Moment */}
-        <div className="w-full flex flex-col items-center justify-center gap-28 mt-10">
-          <div className="flex flex-col xl:flex-row-reverse gap-6">
+        <motion.div 
+          variants={rightVariant}
+          initial="initial"
+          whileInView="animate"
+          viewport={{ once: true }}
+          transition= {{ duration: 0.5, delay: 0.5 }}
+          className="w-full flex flex-col items-center justify-center gap-28 mt-10">
+          <div className="flex flex-col xl:flex-row-reverse gap-4">
             <a
               className="w-full xl:w-1/2 h-auto relative group"
               href="https://boxmoment.com.ar/" target="_blank"
@@ -79,7 +105,7 @@ const Projects = () => {
               </div>
             </a>
 
-            <div className="w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-end text-right z-10">
+            <div className="w-full xl:w-1/2 flex flex-col gap-4 lgl:justify-between items-end text-right z-10">
               <p className="font-titleFont text-textGreen text-sm tracking-wide">
                 Landing Page
               </p>
@@ -111,11 +137,17 @@ const Projects = () => {
               </div>
             </div>
           </div>
-        </div>
+        </motion.div>
         
         {/* Promptopia */}
-        <div className="w-full flex flex-col items-center justify-center gap-28 mt-10">
-          <div className="flex flex-col xl:flex-row gap-6">
+        <motion.div 
+          variants={leftVariant}
+          initial="initial"
+          whileInView="animate"
+          viewport={{ once: true }}
+          transition= {{ duration: 0.5, delay: 0.5 }}
+          className="w-full flex flex-col items-center justify-center gap-28 mt-10">
+          <div className="flex flex-col xl:flex-row gap-4">
             <a
               className="w-full xl:w-1/2 h-auto relative group"
               href="https://promptopia-mb.vercel.app/" target="_blank"
@@ -130,7 +162,7 @@ const Projects = () => {
               </div>
             </a>
 
-            <div className="w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-end text-right xl:-ml-16 z-10">
+            <div className="w-full xl:w-1/2 flex flex-col gap-4 lgl:justify-between items-end text-right xl:-ml-16 z-10">
               <p className="font-titleFont text-textGreen text-sm tracking-wide">
                 Fullstack App
               </p>
@@ -164,11 +196,17 @@ const Projects = () => {
               </div>
             </div>
           </div>
-        </div>
+        </motion.div>
 
         {/* SnapHive */}
-        <div className="w-full flex flex-col items-center justify-center gap-28 mt-10">
-          <div className="flex flex-col xl:flex-row-reverse gap-6">
+        <motion.div 
+        variants={rightVariant}
+        initial="initial"
+        whileInView="animate"
+        viewport={{ once: true }}
+        transition= {{ duration: 0.5, delay: 0.5 }}
+        className="w-full flex flex-col items-center justify-center gap-28 mt-10">
+          <div className="flex flex-col xl:flex-row-reverse gap-4">
             <div
               className="w-full xl:w-1/2 h-auto relative group"
             >
@@ -182,7 +220,7 @@ const Projects = () => {
               </div>
             </div>
 
-            <div className="w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-end text-right z-10">
+            <div className="w-full xl:w-1/2 flex flex-col gap-4 lgl:justify-between items-end text-right z-10">
               <p className="font-titleFont text-textGreen text-sm tracking-wide">
                 Fullstack App
               </p>
@@ -209,11 +247,17 @@ const Projects = () => {
               </div>
             </div>
           </div>
-        </div>
+        </motion.div>
 
         {/* Coccions */}
-        <div className="w-full flex flex-col items-center justify-center gap-28 mt-10">
-          <div className="flex flex-col xl:flex-row gap-6">
+        <motion.div 
+        variants={leftVariant}
+        initial="initial"
+        whileInView="animate"
+        viewport={{ once: true }}
+        transition= {{ duration: 0.5, delay: 0.5 }}
+        className="w-full flex flex-col items-center justify-center gap-28 mt-10">
+          <div className="flex flex-col xl:flex-row gap-4">
             <a
               className="w-full xl:w-1/2 h-auto relative group"
               href="https://coccions.com.ar/" target="_blank"
@@ -228,7 +272,7 @@ const Projects = () => {
               </div>
             </a>
 
-            <div className="w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-end text-right xl:-ml-16 z-10">
+            <div className="w-full xl:w-1/2 flex flex-col gap-4 lgl:justify-between items-end text-right xl:-ml-16 z-10">
               <p className="font-titleFont text-textGreen text-sm tracking-wide">
                 E-commerce Catalog
               </p>
@@ -259,11 +303,17 @@ const Projects = () => {
               </div>
             </div>
           </div>
-        </div>
+        </motion.div>
 
         {/* Bluesphere */}
-        <div className="w-full flex flex-col items-center justify-center gap-28 mt-10">
-          <div className="flex flex-col xl:flex-row-reverse gap-6">
+        <motion.div 
+          variants={rightVariant}
+          initial="initial"
+          whileInView="animate"
+          viewport={{ once: true }}
+          transition= {{ duration: 0.5, delay: 0.5 }}
+          className="w-full flex flex-col items-center justify-center gap-28 mt-10">
+          <div className="flex flex-col xl:flex-row-reverse gap-4">
             <a
               className="w-full xl:w-1/2 h-auto relative group"
               href="https://bluesphere.com.ar/" target="_blank"
@@ -278,7 +328,7 @@ const Projects = () => {
               </div>
             </a>
 
-            <div className="w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-end text-right z-10">
+            <div className="w-full xl:w-1/2 flex flex-col gap-4 lgl:justify-between items-end text-right z-10">
               <p className="font-titleFont text-textGreen text-sm tracking-wide">
                 Landing Page
               </p>
@@ -310,7 +360,7 @@ const Projects = () => {
               </div>
             </div>
           </div>
-        </div>
+        </motion.div>
         
       </div>
     </section>
