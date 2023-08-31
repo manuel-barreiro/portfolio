@@ -50,7 +50,7 @@ function Navbar() {
                 transition= {{ duration: 1 }}
                 className='font-bold uppercase'
             >
-                <Image src={logo} alt='logo' className='w-20' />
+                <Image src={logo} alt='logo' priority={true} className='w-20' />
             </motion.div>
             <div className='hidden mdl:inline-flex items-center gap-7'>
                 <ul className='flex text-[13px] gap-7'>
