@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <main className='w-full h-screen font-bodyFont bg-bodyColor text-textLight overflow-x-hidden'>
           <Navbar />
-          <div className='w-full h-[88vh] xl:flex items-center gap-20 justify-between'>
+          <div className='w-full h-[88vh] xl:flex items-center gap-20 justify-between mt-20 lg:mt-[12vh]'>
             <div className='hidden xl:inline-flex w-32 h-full fixed left-0 bottom-0'>
               <LeftSide />
             </div>
