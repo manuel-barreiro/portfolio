@@ -27,14 +27,16 @@ function Navbar() {
     return (
     <div className='w-full shadow-navbarShadow h-20 lg:h-[12vh] fixed z-50 bg-bodyColor px-4 md:px-20 lg:px-28 xl:px-32'>
         <div className='max-w-container h-full mx-auto py-1 font-titleFont flex items-center justify-between'>
-            <motion.div
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                transition= {{ duration: 1 }}
-                className='font-bold uppercase'
-            >
-                <Image src={logo} alt='logo' priority={true} className='w-20' />
-            </motion.div>
+            <Link href="#home">
+                <motion.div
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
+                    transition= {{ duration: 1 }}
+                    className='font-bold uppercase'
+                >
+                    <Image src={logo} alt='logo' priority={true} className='w-20 hover:scale-105 ease-in-out duration-300 cursor-pointer' />
+                </motion.div>
+            </Link>
             <div className='hidden mdl:inline-flex items-center gap-7'>
                 <ul className='flex text-[13px] gap-7'>
                     <Link

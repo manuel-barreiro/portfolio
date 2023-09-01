@@ -13,6 +13,11 @@
   scrollbar-width: none;  /* Firefox */
 }
 
+html, body, main {
+  --scroll-behavior: smooth!important;
+  scroll-behavior: smooth!important;
+  }
+
 .active {
     color: #64ffda;
 }
