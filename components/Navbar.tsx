@@ -22,24 +22,7 @@ function Navbar() {
     console.log(showMenu)
     }
 
-    const handleScroll = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
-    e.preventDefault();
-    setShowMenu(false);
-    const href = e.currentTarget.href;
-    const targetId = href.replace(/.*\#/, "");
-    const elem = document.getElementById(targetId);
-    elem?.scrollIntoView({
-        behavior: "smooth",
-    });
-
     // Update the class name of the clicked link
-
-    const links = document.querySelectorAll(".nav-link")
-    links.forEach((link) => {
-        link.classList.remove("active");
-    });
-    e.currentTarget.classList.add("active");
-    };
 
     return (
     <div className='w-full shadow-navbarShadow h-20 lg:h-[12vh] fixed top-0 z-50 bg-bodyColor px-4 md:px-20 lg:px-28 xl:px-32'>
@@ -150,7 +133,7 @@ function Navbar() {
                                 <ul className='flex flex-col text-base gap-7'>
                                     <Link
                                         href="#home"
-                                        onClick={handleScroll} 
+                                        onClick={handleShowMenu}
                                         className='font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link'
                                     >
                                         <motion.li 
@@ -167,6 +150,7 @@ function Navbar() {
                                     </Link>
                                     <Link 
                                         href="#about" 
+                                        onClick={handleShowMenu}
                                         className='font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link'
                                     >
                                         <motion.li 
@@ -183,6 +167,7 @@ function Navbar() {
                                     </Link>
                                     <Link
                                         href="#experience" 
+                                        onClick={handleShowMenu}
                                         className='font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link'
                                     >
                                         <motion.li 
@@ -199,6 +184,7 @@ function Navbar() {
                                     </Link>
                                     <Link
                                         href="#projects"
+                                        onClick={handleShowMenu}
                                         className='font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link' 
                                     >
                                         <motion.li 
@@ -215,6 +201,7 @@ function Navbar() {
                                     </Link>
                                     <Link 
                                         href="#contact" 
+                                        onClick={handleShowMenu}
                                         className='font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link' 
                                     >
                                         <motion.li 
