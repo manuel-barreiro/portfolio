@@ -57,8 +57,8 @@ const Projects = () => {
               </p>
               <ul className="ml-10 text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
                 <li>React</li>
-                <li>Next.js 13</li>
-                <li>Tailwind CSS</li>
+                <li>Next.js</li>
+                <li>Tailwind</li>
                 <li>Vercel</li>
                 <li>Framer Motion</li>
               </ul>
@@ -174,7 +174,7 @@ const Projects = () => {
                 <li>React</li>
                 <li>Next.js</li>
                 <li>Next-auth</li>
-                <li>Tailwind CSS</li>
+                <li>Tailwind</li>
                 <li>MongoDB</li>
                 <li>Vercel</li>
               </ul>
