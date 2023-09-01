@@ -25,7 +25,7 @@ function Navbar() {
     // Update the class name of the clicked link
 
     return (
-    <div className='w-full shadow-navbarShadow h-20 lg:h-[12vh] fixed top-0 z-50 bg-bodyColor px-4 md:px-20 lg:px-28 xl:px-32'>
+    <div className='w-full shadow-navbarShadow h-20 lg:h-[12vh] fixed z-50 bg-bodyColor px-4 md:px-20 lg:px-28 xl:px-32'>
         <div className='max-w-container h-full mx-auto py-1 font-titleFont flex items-center justify-between'>
             <motion.div
                 initial={{ opacity: 0 }}

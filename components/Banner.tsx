@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 const Banner = () => {
   return (
-    <section id='home' className='max-w-containerSmall min-h-screen mx-auto py-10 mdl:py-8 flex flex-col gap-4 lgl:gap-8 mdl:px-10 xl:px-4'>
+    <section id='home' className='max-w-containerSmall h-auto mx-auto py-10 mdl:py-8 flex flex-col gap-4 lgl:gap-8 mdl:px-10 xl:px-4'>
         <motion.h3
             initial={{ y: 10, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}

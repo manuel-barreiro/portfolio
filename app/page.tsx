@@ -12,22 +12,18 @@ import Form from '@/components/Form'
 
 export default function Home() {
   return (
-    <main className='w-full h-screen font-bodyFont bg-bodyColor text-textLight overflow-x-hidden scrollbar-hide'>
+    <main className='w-full h-auto font-bodyFont bg-bodyColor text-textLight overflow-x-hidden scrollbar-hide'>
           <Navbar />
-          <div className='w-full h-[88vh] xl:flex items-center gap-20 justify-between mt-20 lg:mt-[12vh]'>
+          <div className='w-full h-auto xl:flex items-center gap-20 justify-between mt-20 lg:mt-[12vh]'>
             <div className='hidden xl:inline-flex w-32 h-full fixed left-0 bottom-0'>
               <LeftSide />
             </div>
-            <div className='h-[88vh] mx-auto p-4'>
+            <div className='h-auto mx-auto p-4'>
               <Banner />
               <About />
-              <div id="prueba">
-                <Experience />
-              </div>
+              <Experience />
               <Projects />
               <Form />
-              {/* Contact */}
-              {/* Footer */}
             </div>
             <div className='hidden xl:inline-flex w-32 h-full fixed right-0 bottom-0'>
               <RightSide />
