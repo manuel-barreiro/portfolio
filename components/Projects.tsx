@@ -29,7 +29,8 @@ const Projects = () => {
           variants={leftVariant}
           initial="initial"
           whileInView="animate"
-          viewport={{ once: true }}
+          viewport={{ once: true,
+                      amount: 0.5 }}
           transition= {{ duration: 0.5, delay: 0.5 }}
           className="w-full flex flex-col items-center justify-center gap-28 mt-10">
           <div className="flex flex-col xl:flex-row gap-4">
@@ -87,7 +88,8 @@ const Projects = () => {
           variants={rightVariant}
           initial="initial"
           whileInView="animate"
-          viewport={{ once: true }}
+          viewport={{ once: true,
+                      amount: 0.5 }}
           transition= {{ duration: 0.5, delay: 0.5 }}
           className="w-full flex flex-col items-center justify-center gap-28 mt-10">
           <div className="flex flex-col xl:flex-row-reverse gap-4">
@@ -144,7 +146,8 @@ const Projects = () => {
           variants={leftVariant}
           initial="initial"
           whileInView="animate"
-          viewport={{ once: true }}
+          viewport={{ once: true,
+                      amount: 0.5 }}
           transition= {{ duration: 0.5, delay: 0.5 }}
           className="w-full flex flex-col items-center justify-center gap-28 mt-10">
           <div className="flex flex-col xl:flex-row gap-4">
@@ -203,7 +206,8 @@ const Projects = () => {
         variants={rightVariant}
         initial="initial"
         whileInView="animate"
-        viewport={{ once: true }}
+        viewport={{ once: true,
+                      amount: 0.5 }}
         transition= {{ duration: 0.5, delay: 0.5 }}
         className="w-full flex flex-col items-center justify-center gap-28 mt-10">
           <div className="flex flex-col xl:flex-row-reverse gap-4">
@@ -254,7 +258,8 @@ const Projects = () => {
         variants={leftVariant}
         initial="initial"
         whileInView="animate"
-        viewport={{ once: true }}
+        viewport={{ once: true,
+                      amount: 0.5 }}
         transition= {{ duration: 0.5, delay: 0.5 }}
         className="w-full flex flex-col items-center justify-center gap-28 mt-10">
           <div className="flex flex-col xl:flex-row gap-4">
@@ -310,7 +315,8 @@ const Projects = () => {
           variants={rightVariant}
           initial="initial"
           whileInView="animate"
-          viewport={{ once: true }}
+          viewport={{ once: true,
+                      amount: 0.5 }}
           transition= {{ duration: 0.5, delay: 0.5 }}
           className="w-full flex flex-col items-center justify-center gap-28 mt-10">
           <div className="flex flex-col xl:flex-row-reverse gap-4">
