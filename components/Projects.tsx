@@ -312,7 +312,7 @@ const Projects = () => {
 
         {/* Bluesphere */}
         <motion.div 
-          variants={rightVariant}
+          variants={leftVariant}
           initial="initial"
           whileInView="animate"
           viewport={{ once: true,
