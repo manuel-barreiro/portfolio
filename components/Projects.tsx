@@ -142,7 +142,7 @@ const Projects = () => {
         </motion.div>
         
         {/* Promptopia */}
-        <motion.div 
+        {/* <motion.div 
           variants={leftVariant}
           initial="initial"
           whileInView="animate"
@@ -192,6 +192,63 @@ const Projects = () => {
                 <a 
                   className="hover:text-textGreen hover:scale-105 ease-in-out duration-300"
                   href="https://promptopia-mb.vercel.app/"
+                  target= "_blank"
+                >
+                  <RxOpenInNewWindow />
+                </a>
+              </div>
+            </div>
+          </div>
+        </motion.div> */}
+
+        {/* Coccions */}
+        <motion.div 
+        variants={leftVariant}
+        initial="initial"
+        whileInView="animate"
+        viewport={{ once: true,
+                      amount: 0.5 }}
+        transition= {{ duration: 0.5, delay: 0.5 }}
+        className="w-full flex flex-col items-center justify-center gap-28 mt-10">
+          <div className="flex flex-col xl:flex-row gap-4">
+            <a
+              className="w-full xl:w-1/2 h-auto relative group"
+              href="https://coccions.com.ar/" target="_blank"
+            >
+              <div className="hover:scale-105 ease-in-out duration-300">
+                <Image 
+                  className="w-full h-full object-contain"
+                  src={coccions}
+                  alt="coccions"
+                  priority={true}
+                />
+              </div>
+            </a>
+
+            <div className="w-full xl:w-1/2 flex flex-col gap-4 lgl:justify-between items-end text-right xl:-ml-16 z-10">
+              <p className="font-titleFont text-textGreen text-sm tracking-wide">
+                E-commerce Catalog
+              </p>
+              <h3 className="text-3xl lg:text-4xl font-titleFont font-bold">Coccions</h3>
+              <p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md">
+                Diseño y desarrollo de landing page y catálogo web de productos para empresa de pastelería.
+              </p>
+              <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+              </ul>
+              <div className="text-2xl flex gap-4">
+                <a 
+                  className="hover:text-textGreen hover:scale-105 ease-in-out duration-300"
+                  href="https://github.com/manuel-barreiro/Coccions"
+                  target= "_blank"
+                >
+                  <TbBrandGithub />
+                </a>
+                <a 
+                  className="hover:text-textGreen hover:scale-105 ease-in-out duration-300"
+                  href="https://coccions.com.ar/"
                   target= "_blank"
                 >
                   <RxOpenInNewWindow />
@@ -253,63 +310,6 @@ const Projects = () => {
           </div>
         </motion.div>
 
-        {/* Coccions */}
-        <motion.div 
-        variants={leftVariant}
-        initial="initial"
-        whileInView="animate"
-        viewport={{ once: true,
-                      amount: 0.5 }}
-        transition= {{ duration: 0.5, delay: 0.5 }}
-        className="w-full flex flex-col items-center justify-center gap-28 mt-10">
-          <div className="flex flex-col xl:flex-row gap-4">
-            <a
-              className="w-full xl:w-1/2 h-auto relative group"
-              href="https://coccions.com.ar/" target="_blank"
-            >
-              <div className="hover:scale-105 ease-in-out duration-300">
-                <Image 
-                  className="w-full h-full object-contain"
-                  src={coccions}
-                  alt="coccions"
-                  priority={true}
-                />
-              </div>
-            </a>
-
-            <div className="w-full xl:w-1/2 flex flex-col gap-4 lgl:justify-between items-end text-right xl:-ml-16 z-10">
-              <p className="font-titleFont text-textGreen text-sm tracking-wide">
-                E-commerce Catalog
-              </p>
-              <h3 className="text-3xl lg:text-4xl font-titleFont font-bold">Coccions</h3>
-              <p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md">
-                Diseño y desarrollo de landing page y catálogo web de e-commerce diseñado y desarrollado para empresa de pastelería.
-              </p>
-              <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Javascript</li>
-              </ul>
-              <div className="text-2xl flex gap-4">
-                <a 
-                  className="hover:text-textGreen hover:scale-105 ease-in-out duration-300"
-                  href="https://github.com/manuel-barreiro/Coccions"
-                  target= "_blank"
-                >
-                  <TbBrandGithub />
-                </a>
-                <a 
-                  className="hover:text-textGreen hover:scale-105 ease-in-out duration-300"
-                  href="https://coccions.com.ar/"
-                  target= "_blank"
-                >
-                  <RxOpenInNewWindow />
-                </a>
-              </div>
-            </div>
-          </div>
-        </motion.div>
-
         {/* Bluesphere */}
         <motion.div 
           variants={rightVariant}
@@ -319,7 +319,7 @@ const Projects = () => {
                       amount: 0.5 }}
           transition= {{ duration: 0.5, delay: 0.5 }}
           className="w-full flex flex-col items-center justify-center gap-28 mt-10">
-          <div className="flex flex-col xl:flex-row-reverse gap-4">
+          <div className="flex flex-col xl:flex-row gap-4">
             <a
               className="w-full xl:w-1/2 h-auto relative group"
               href="https://bluesphere.com.ar/" target="_blank"
@@ -334,12 +334,12 @@ const Projects = () => {
               </div>
             </a>
 
-            <div className="w-full xl:w-1/2 flex flex-col gap-4 lgl:justify-between items-end text-right z-10">
+            <div className="w-full xl:w-1/2 flex flex-col gap-4 lgl:justify-between items-end text-right xl:-ml-16 z-10">
               <p className="font-titleFont text-textGreen text-sm tracking-wide">
                 Landing Page
               </p>
               <h3 className="text-3xl lg:text-4xl font-titleFont font-bold">Bluesphere</h3>
-              <p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md lg:-mr-16">
+              <p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md lg:-ml-16">
                 Diseño y desarrollo de logotipo y sitio web, para Bluesphere, empresa de gestión de residuos.
               </p>
               <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
