@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 }
 
 // NextFonts
-import { Inter, Montserrat } from 'next/font/google'
+import { Inter, Montserrat, Unbounded } from 'next/font/google'
 
 const inter = Inter({
   subsets: ['latin'],
@@ -24,6 +24,12 @@ const montserrat = Montserrat({
   variable: '--font-montserrat',
 })
 
+const unbounded = Unbounded({
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-unbounded',
+})
+
 
 // Layout
 
@@ -33,7 +39,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className={`${inter.variable} ${montserrat.variable} scrollbar-hide`}>
+    <html lang="en" className={`${inter.variable} ${unbounded.variable} scrollbar-hide`}>
       <body className='scrollbar-hide'>
         {children}
       </body>

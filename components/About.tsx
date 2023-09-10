@@ -1,6 +1,7 @@
 import Image from "next/image"
 import SectionTitle from "./SectionTitle"
 import { AiFillThunderbolt } from "react-icons/ai"
+import { profile } from '@/public'
 
 const About = () => {
   return (
@@ -67,10 +68,11 @@ const About = () => {
               <Image
                 width={200}
                 height={200}
-                src='/assets/profile.JPG'
+                src={profile}
                 className='rounded-full'
                 alt="photo"
                 priority={true}
+                placeholder="blur"
               />
           </div>
         </div>

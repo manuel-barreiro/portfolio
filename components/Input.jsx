@@ -29,7 +29,7 @@ export const Input = ({
   return (
     <div className={cn('p-2 w-1/2', className)}>
       <div className="relative">
-        <label htmlFor={id} className="leading-7 text-md text-textGreen">
+        <label htmlFor={id} className="leading-7 text-md text-textDark">
           {label}
         </label>
         <AnimatePresence mode="wait" initial={false}>

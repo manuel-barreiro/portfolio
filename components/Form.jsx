@@ -22,6 +22,9 @@ import {
 import { useState, useRef } from 'react'
 import { GrMail } from 'react-icons/gr'
 import { BsFillPatchCheckFill, BsFillPatchExclamationFill } from 'react-icons/bs'
+import { TbBrandGithub } from "react-icons/tb";
+import { SlSocialTwitter, SlSocialLinkedin } from "react-icons/sl";
+import { AiOutlineWhatsApp } from "react-icons/ai";
 import emailjs from '@emailjs/browser';
 
 export default function ContactForm() {
@@ -58,9 +61,36 @@ export default function ContactForm() {
     <section id="contact" className='container px-8 md:px-32 mx-auto font-primary h-auto pb-20 w-full'>
 
 
-        <div className="flex flex-col text-center w-full mb-10">
-                    <h3 className="sm:text-4xl text-3xl font-bold mb-2">Contacto</h3>
+        <div className="flex flex-col items-center gap-4 text-center w-full mb-10">
+                    <h3 className="sm:text-4xl text-3xl font-bold mb-2 font-titleFont">Contacto</h3>
                     <p className="lg:w-2/3 mx-auto leading-relaxed text-sm text-gray-300">Contactame por cualquiera de mis redes o completá el siguiente formulario.</p>
+                    <div className="flex gap-6 xl:hidden ">
+                                    <a href="mailto:ing.mbarreiro@gmail.com?Subject=Consulta">
+                                        <span className="w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300">
+                                            <GrMail />
+                                        </span>
+                                    </a>
+                                    <a href="https://wa.me/+5491166726968" target="_blank">
+                                        <span className="w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300">
+                                            <AiOutlineWhatsApp />
+                                        </span>
+                                    </a>
+                                    <a href="https://www.linkedin.com/in/manuel-barreiro/" target="_blank">
+                                        <span className="w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300">
+                                            <SlSocialLinkedin />
+                                        </span>
+                                    </a>
+                                    <a href="https://twitter.com/ing_Barreiro" target="_blank">
+                                        <span className="w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300">
+                                            <SlSocialTwitter />
+                                        </span>
+                                    </a>
+                                    <a href="https://github.com/manuel-barreiro" target="_blank">
+                                        <span className="w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300">
+                                            <TbBrandGithub />
+                                        </span>
+                                    </a>
+                                </div>
         </div>
 
             <FormProvider {...methods}>
@@ -91,7 +121,7 @@ export default function ContactForm() {
                                 )}
                                 <button
                                     onClick={onSubmit}
-                                    className="flex justify-center items-center gap-2 px-4 py-2 rounded-md bg-[#0a192f] text-textGreen border hover:text-pineGreen hover:bg-textGreen/10 duration-300 w-full cursor-pointer"
+                                    className="flex justify-center items-center gap-2 px-4 py-2 rounded-md text-textGreen text-md border border-textGreen hover:bg-textGreen/10 duration-300 w-full cursor-pointer"
                                 >
                                     <GrMail size={20} />
                                     <p className='mt-1'>Enviar</p> 

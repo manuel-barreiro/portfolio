@@ -44,11 +44,12 @@ const Projects = () => {
                   src={power}
                   alt="Power Consultant"
                   priority={true}
+                  placeholder="blur"
                 />
               </div>
             </a>
 
-            <div className="w-full xl:w-1/2 flex flex-col gap-4 lgl:justify-between items-end text-right xl:-ml-16 z-10">
+            <div className="w-full xl:w-1/2 flex flex-col gap-4 lgl:justify-between items-start md:items-end text-right xl:-ml-16 z-10">
               <p className="font-titleFont text-textGreen text-sm tracking-wide">
                 Landing page & Product Catalog
               </p>
@@ -57,7 +58,6 @@ const Projects = () => {
                 Diseño y desarrollo (Figma to code) de landing page empresarial y catálogo de productos. Desarrollado con Next.js 13 (app router), optimizado aprovechando SSR.
               </p>
               <ul className="ml-10 text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
-                <li>React</li>
                 <li>Next.js</li>
                 <li>Tailwind</li>
                 <li>Vercel</li>
@@ -103,6 +103,7 @@ const Projects = () => {
                   src={boxmoment}
                   alt="Box Moment"
                   priority={true}
+                  placeholder="blur"
                 />
               </div>
             </a>
@@ -221,11 +222,12 @@ const Projects = () => {
                   src={coccions}
                   alt="coccions"
                   priority={true}
+                  placeholder="blur"
                 />
               </div>
             </a>
 
-            <div className="w-full xl:w-1/2 flex flex-col gap-4 lgl:justify-between items-end text-right xl:-ml-16 z-10">
+            <div className="w-full xl:w-1/2 flex flex-col gap-4 lgl:justify-between items-start md:items-end text-right xl:-ml-16 z-10">
               <p className="font-titleFont text-textGreen text-sm tracking-wide">
                 E-commerce Catalog
               </p>
@@ -277,6 +279,7 @@ const Projects = () => {
                   src={snaphive}
                   alt="snaphive"
                   priority={true}
+                  placeholder="blur"
                 />
               </div>
             </div>
@@ -290,7 +293,6 @@ const Projects = () => {
                 Aplicación fullstack desarrollada con estructura MVC. Node.js, Express.js, Passport.js. Permite a los usuarios publicar, likear y comentar imágenes.
               </p>
               <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
-                <li>Node.js</li>
                 <li>Express.js</li>
                 <li>Passport.js</li>
                 <li>MongoDB</li>
@@ -330,11 +332,12 @@ const Projects = () => {
                   src={bluesphere}
                   alt="bluesphere"
                   priority={true}
+                  placeholder="blur"
                 />
               </div>
             </a>
 
-            <div className="w-full xl:w-1/2 flex flex-col gap-4 lgl:justify-between items-end text-right xl:-ml-16 z-10">
+            <div className="w-full xl:w-1/2 flex flex-col gap-4 lgl:justify-between items-start md:items-end text-right xl:-ml-16 z-10">
               <p className="font-titleFont text-textGreen text-sm tracking-wide">
                 Landing Page
               </p>

@@ -28,7 +28,7 @@ module.exports = {
 
       fontFamily: {
         bodyFont: ['var(--font-inter)'],
-        titleFont: ['var(--font-montserrat)'],
+        titleFont: ['var(--font-unbounded)'],
       },
 
       boxShadow: {
@@ -36,8 +36,8 @@ module.exports = {
       },
 
       colors: {
-        bodyColor: "#0A192F",
-        textGreen: "#64ffda",
+        bodyColor: "#191919",
+        textGreen: "#525DF7",
         textLight: "#ccd6f6",
         textDark: "#8892b0",
         hoverColor: "rgba(100,255,218,0.1)"
