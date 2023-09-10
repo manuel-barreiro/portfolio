@@ -11,8 +11,8 @@ const Weplan = () => {
         transition= {{ delay: 0.1 }} 
         className='w-full'
     >
-        <h3 className='flex gap-1 font-medium text-lg font-titleFont'>
-            Business Intelligence Engineer
+        <h3 className='flex gap-1 font-medium text-xl font-titleFont'>
+            BI Engineer
             <span className='hidden md:inline text-textGreen tracking-wide'>| We Plan LATAM</span>
         </h3>
         <h3 className='md:hidden flex gap-1 font-medium text-xl font-titleFont'>

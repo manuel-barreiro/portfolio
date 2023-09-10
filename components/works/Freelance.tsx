@@ -12,7 +12,7 @@ const Freelance = () => {
         className='w-full'
     >
         <h3 className='flex gap-1 font-medium text-xl font-titleFont'>
-            Full-stack Developer
+            Full Stack Developer
             <span className='hidden md:inline text-textGreen tracking-wide'>| Freelance</span>
         </h3>
         <h3 className='md:hidden flex gap-1 font-medium text-xl font-titleFont'>

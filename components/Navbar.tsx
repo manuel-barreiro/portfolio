@@ -38,7 +38,7 @@ function Navbar() {
                     <Image src={logo} alt='logo' priority={true} className='w-24 hover:scale-105 ease-in-out duration-300 cursor-pointer md:ml-2' />
                 </motion.div>
             </Link>
-            <div className='hidden mdl:inline-flex items-center gap-7'>
+            <div className='hidden lgl:inline-flex items-center gap-7'>
                 <ul className='flex text-[13px] gap-7'>
                     <Link
                         href="#home"
@@ -114,7 +114,7 @@ function Navbar() {
             </div>
             {/* Small Icon section */}
 
-            <div onClick={handleShowMenu} className='w-6 h-5 flex flex-col justify-between items-center mdl:hidden text-4xl text-textGreen cursor-pointer overflow-hidden group'>
+            <div onClick={handleShowMenu} className='w-6 h-5 flex flex-col justify-between items-center lgl:hidden text-4xl text-textGreen cursor-pointer overflow-hidden group'>
                 <span className='w-full h-[2px] bg-textGreen inline-flex transform group-hover:translate-x-2 transition-all ease-in-out duration-300'></span>
                 <span className='w-full h-[2px] bg-textGreen inline-flex transform translate-x-3 group-hover:translate-x-0 transition-all ease-in-out duration-300'></span>
                 <span className='w-full h-[2px] bg-textGreen inline-flex transform translate-x-1 group-hover:translate-x-3 transition-all ease-in-out duration-300'></span>
@@ -244,11 +244,6 @@ function Navbar() {
                                     <a href="https://www.linkedin.com/in/manuel-barreiro/" target="_blank">
                                         <span className="w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300">
                                             <SlSocialLinkedin />
-                                        </span>
-                                    </a>
-                                    <a href="https://twitter.com/ing_Barreiro" target="_blank">
-                                        <span className="w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300">
-                                            <SlSocialTwitter />
                                         </span>
                                     </a>
                                     <a href="https://github.com/manuel-barreiro" target="_blank">

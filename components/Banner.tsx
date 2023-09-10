@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 const Banner = () => {
   return (
-    <section id='home' className='max-w-containerSmall h-auto mx-auto py-10 mdl:py-8 flex flex-col gap-4 lgl:gap-8 mdl:px-10 xl:px-4'>
+    <section id='home' className='max-w-containerSmall h-auto mx-auto py-10 mdl:py-8 flex flex-col gap-6 lgl:gap-8 mdl:px-10 xl:px-4'>
         <motion.h3
             initial={{ y: 10, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
@@ -22,7 +22,7 @@ const Banner = () => {
             className='text-3xl lgl:text-6xl font-titleFont font-semibold flex flex-col'
         >
             Manuel Barreiro.{' '} 
-            <span className='text-textDark mt-2 lgl:mt-4'>
+            <span className='text-textDark mt-2 lgl:mt-4 text-2xl md:text-3xl lgl:text-6xl'>
                 Ingeniero | Developer
             </span>
         </motion.h1>
@@ -33,7 +33,7 @@ const Banner = () => {
             transition= {{ duration: 0.5, delay: 0.8 }} 
             className='text-base md:max-w-[650px] text-textDark font-medium'
         >
-            Apasionado por la tecnología. Mi formación en ingeniería me brindó habilidades y experiencia en el campo de Business Intelligence y Data Science, y mi pasión por programar me llevó a desarrollar aplicaciones fullstack y páginas web responsivas, utilizando distintos frameworks. {' '}
+            Apasionado por la tecnología. Mi formación en ingeniería me brindó habilidades y experiencia en el campo de Business Intelligence y Data Science, y mi pasión por programar me llevó a desarrollar aplicaciones y páginas web responsivas, utilizando distintos frameworks. {' '}
         </motion.p>
         
         <Link href="#about">

@@ -8,7 +8,7 @@ const About = () => {
         <SectionTitle title='Sobre mí' />
         <div className="flex flex-col lgl:flex-row gap-16">
           <div className="w-full lgl:w-2/3 text-base text-textDark font-medium flex flex-col gap-4 text-justify">
-            <p>Mi nombre es Manuel, este año me recibo de ingeniero y soy desarrollador full-stack.</p>
+            <p>Mi nombre es Manuel, este año me recibo de ingeniero y soy desarrollador full stack.</p>
             <p>Me apasiona el mundo de la tecnología, siempre me gustó programar y trabajar en proyectos desafiantes que me permitan adquirir nuevos conocimientos y superar mis límites. Estoy siempre en búsqueda de nuevos retos y oportunidades para crecer como <span className="text-textGreen">ingeniero y desarrollador.</span></p>
             <p>¡Gracias por visitar mi portfolio!</p>
             <p>Algunas de las tecnologías que manejo:</p>
@@ -17,7 +17,7 @@ const About = () => {
                 <span className="text-textGreen">
                   <AiFillThunderbolt/>
                 </span>
-                JavaScript (ES6+)
+                JavaScript
               </li>
               <li className="flex items-center gap-2">
                 <span className="text-textGreen">
