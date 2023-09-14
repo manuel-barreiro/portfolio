@@ -1,6 +1,6 @@
 'use client';
 
-import { power, boxmoment, bluesphere, coccions, promptopia, snaphive } from "@/public"
+import { power, boxmoment, bluesphere, coccions, promptopia, snaphive, remindMe } from "@/public"
 import SectionTitle from "./SectionTitle"
 import Image from "next/image"
 import { TbBrandGithub } from "react-icons/tb"
@@ -202,7 +202,7 @@ const Projects = () => {
           </div>
         </motion.div> */}
 
-        {/* Coccions */}
+        {/* RemindMe */}
         <motion.div 
         variants={leftVariant}
         initial="initial"
@@ -214,12 +214,12 @@ const Projects = () => {
           <div className="flex flex-col xl:flex-row gap-4">
             <a
               className="w-full xl:w-1/2 h-auto relative group"
-              href="https://coccions.com.ar/" target="_blank"
+              href="https://mb-remind-me.vercel.app/" target="_blank"
             >
               <div className="hover:scale-105 ease-in-out duration-300">
                 <Image 
                   className="w-full h-full object-contain"
-                  src={coccions}
+                  src={remindMe}
                   alt="coccions"
                   priority={true}
                   placeholder="blur"
@@ -229,28 +229,29 @@ const Projects = () => {
 
             <div className="w-full xl:w-1/2 flex flex-col gap-4 lgl:justify-between items-start md:items-end text-right xl:-ml-16 z-10">
               <p className="font-titleFont text-textGreen text-sm tracking-wide">
-                E-commerce Catalog
+                Full Stack App
               </p>
-              <h3 className="text-3xl lg:text-4xl font-titleFont font-bold">Coccions</h3>
+              <h3 className="text-3xl lg:text-4xl font-titleFont font-bold">RemindMe</h3>
               <p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md">
-                Diseño y desarrollo de landing page y catálogo web de productos para empresa de pastelería.
+                Aplicación que le permite a los usuarios crear y guardar recordatorios. Desarrollada con Next.js utilizando server actions, TailwindCSS, y Prisma con PostgreSQL.
               </p>
               <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Javascript</li>
+                <li>Next.js</li>
+                <li>Tailwind</li>
+                <li>Prisma</li>
+                <li>PostgreSQL</li>
               </ul>
               <div className="text-2xl flex gap-4">
                 <a 
                   className="hover:text-textGreen hover:scale-105 ease-in-out duration-300"
-                  href="https://github.com/manuel-barreiro/Coccions"
+                  href="https://github.com/manuel-barreiro/remind-me"
                   target= "_blank"
                 >
                   <TbBrandGithub />
                 </a>
                 <a 
                   className="hover:text-textGreen hover:scale-105 ease-in-out duration-300"
-                  href="https://coccions.com.ar/"
+                  href="https://mb-remind-me.vercel.app/"
                   target= "_blank"
                 >
                   <RxOpenInNewWindow />
@@ -276,8 +277,8 @@ const Projects = () => {
               <div className="hover:scale-105 ease-in-out duration-300">
                 <Image 
                   className="w-full h-full object-contain"
-                  src={snaphive}
-                  alt="snaphive"
+                  src={coccions}
+                  alt="coccions"
                   priority={true}
                   placeholder="blur"
                 />
@@ -286,11 +287,70 @@ const Projects = () => {
 
             <div className="w-full xl:w-1/2 flex flex-col gap-4 lgl:justify-between items-end text-right z-10">
               <p className="font-titleFont text-textGreen text-sm tracking-wide">
-                Fullstack App
+                E-commerce Catalog
+              </p>
+              <h3 className="text-3xl lg:text-4xl font-titleFont font-bold">Coccions</h3>
+              <p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md lg:-mr-16">
+                Diseño y desarrollo de landing page y catálogo web de productos para empresa de pastelería.
+              </p>
+              <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+              </ul>
+              <div className="text-2xl flex gap-4">
+                <a 
+                  className="hover:text-textGreen hover:scale-105 ease-in-out duration-300"
+                  href="https://github.com/manuel-barreiro/Coccions"
+                  target= "_blank"
+                >
+                  <TbBrandGithub />
+                </a>
+                <a 
+                  className="hover:text-textGreen hover:scale-105 ease-in-out duration-300"
+                  href="https://coccions.com.ar/"
+                  target= "_blank"
+                >
+                  <RxOpenInNewWindow />
+                </a>
+
+              </div>
+            </div>
+          </div>
+        </motion.div>
+
+
+        {/* SnapHive */}
+        <motion.div 
+        variants={leftVariant}
+        initial="initial"
+        whileInView="animate"
+        viewport={{ once: true,
+                      amount: 0.5 }}
+        transition= {{ duration: 0.5, delay: 0.5 }}
+        className="w-full flex flex-col items-center justify-center gap-28 mt-10">
+          <div className="flex flex-col xl:flex-row gap-4">
+            <div
+              className="w-full xl:w-1/2 h-auto relative group"
+            >
+              <div className="hover:scale-105 ease-in-out duration-300">
+                <Image 
+                  className="w-full h-full object-contain"
+                  src={snaphive}
+                  alt="snaphive"
+                  priority={true}
+                  placeholder="blur"
+                />
+              </div>
+            </div>
+
+            <div className="w-full xl:w-1/2 flex flex-col gap-4 lgl:justify-between items-start md:items-end text-right xl:-ml-16 z-10">
+              <p className="font-titleFont text-textGreen text-sm tracking-wide">
+                Full Stack App
               </p>
               <h3 className="text-3xl lg:text-4xl font-titleFont font-bold">SnapHive</h3>
-              <p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md lg:-mr-16">
-                Aplicación fullstack desarrollada con estructura MVC. Node.js, Express.js, Passport.js. Permite a los usuarios publicar, likear y comentar imágenes.
+              <p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md">
+                Aplicación full stack desarrollada con estructura MVC. Express.js, Passport.js, MongoDB. Permite a los usuarios publicar, likear y comentar imágenes.
               </p>
               <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
                 <li>Express.js</li>
@@ -306,13 +366,13 @@ const Projects = () => {
                 >
                   <TbBrandGithub />
                 </a>
-
               </div>
             </div>
           </div>
         </motion.div>
 
-        {/* Bluesphere */}
+
+        {/* Bluesphere
         <motion.div 
           variants={leftVariant}
           initial="initial"
@@ -369,7 +429,7 @@ const Projects = () => {
               </div>
             </div>
           </div>
-        </motion.div>
+        </motion.div> */}
         
       </div>
     </section>
