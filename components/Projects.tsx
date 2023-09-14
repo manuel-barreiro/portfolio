@@ -233,13 +233,13 @@ const Projects = () => {
               </p>
               <h3 className="text-3xl lg:text-4xl font-titleFont font-bold">RemindMe</h3>
               <p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md">
-                Aplicación que le permite a los usuarios crear y guardar recordatorios. Desarrollada con Next.js utilizando server actions, TailwindCSS, y Prisma con PostgreSQL.
+                Aplicación que le permite a los usuarios crear y guardar recordatorios. Desarrollada en TypeSript con Next.js utilizando server actions, TailwindCSS, y Prisma con PostgreSQL.
               </p>
               <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
                 <li>Next.js</li>
+                <li>TypeScript</li>
                 <li>Tailwind</li>
                 <li>Prisma</li>
-                <li>PostgreSQL</li>
               </ul>
               <div className="text-2xl flex gap-4">
                 <a 
