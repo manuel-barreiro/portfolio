@@ -1,6 +1,6 @@
 'use client';
 
-import { power, boxmoment, bluesphere, coccions, promptopia, snaphive, remindMe } from "@/public"
+import { power, boxmoment, bluesphere, coccions, snaphive, remindMe, devaluApp } from "@/public"
 import SectionTitle from "./SectionTitle"
 import Image from "next/image"
 import { TbBrandGithub } from "react-icons/tb"
@@ -23,6 +23,65 @@ const Projects = () => {
     <section id='projects' className='max-w-contentContainer mx-auto lgl:px-20 py-24'>
       <SectionTitle title='Proyectos recientes' />
       <div className="w-full flex flex-col items-center justify-between gap-16 mt-5">
+
+        {/* DevaluApp */}
+        <motion.div 
+          variants={rightVariant}
+          initial="initial"
+          whileInView="animate"
+          viewport={{ once: true,
+                      amount: 0.5 }}
+          transition= {{ duration: 0.5, delay: 0.5 }}
+          className="w-full flex flex-col items-center justify-center gap-28 mt-10">
+          <div className="flex flex-col xl:flex-row-reverse gap-4">
+            <a
+              className="w-full xl:w-1/2 h-auto relative group"
+              href="https://devaluapp.ar/" target="_blank"
+            >
+              <div className="hover:scale-105 ease-in-out duration-300">
+                <Image 
+                  className="w-full h-full object-contain"
+                  src={devaluApp}
+                  alt="Box Moment"
+                  priority={true}
+                  placeholder="blur"
+                />
+              </div>
+            </a>
+
+            <div className="w-full xl:w-1/2 flex flex-col gap-4 lgl:justify-between items-end text-right z-10">
+              <p className="font-titleFont text-textGreen text-sm tracking-wide">
+                Application
+              </p>
+              <h3 className="text-3xl lg:text-4xl font-titleFont font-bold">DevaluApp</h3>
+              <p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md lg:-mr-16">
+                La inflación en Argentina está cada vez peor. DevaluApp te permite calcular la devalución de tu sueldo en relación al valor del dólar blue. Lo hace mediante la API de Bluelytics. Desarrollado en React utilizando Next, y Tailwind CSS para los estilos.
+              </p>
+              <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
+                <li>TypeScript</li>
+                <li>React</li>
+                <li>Next.js</li>
+                <li>Tailwind</li>
+              </ul>
+              <div className="text-2xl flex gap-4">
+                <a 
+                  className="hover:text-textGreen hover:scale-105 ease-in-out duration-300"
+                  href="https://github.com/manuel-barreiro/devaluapp"
+                  target= "_blank"
+                >
+                  <TbBrandGithub />
+                </a>
+                <a 
+                  className="hover:text-textGreen hover:scale-105 ease-in-out duration-300"
+                  href="https://devaluapp.ar/"
+                  target= "_blank"
+                >
+                  <RxOpenInNewWindow />
+                </a>
+              </div>
+            </div>
+          </div>
+        </motion.div>
 
         {/* Power Consultant */}
         <motion.div
@@ -141,66 +200,6 @@ const Projects = () => {
             </div>
           </div>
         </motion.div>
-        
-        {/* Promptopia */}
-        {/* <motion.div 
-          variants={leftVariant}
-          initial="initial"
-          whileInView="animate"
-          viewport={{ once: true,
-                      amount: 0.5 }}
-          transition= {{ duration: 0.5, delay: 0.5 }}
-          className="w-full flex flex-col items-center justify-center gap-28 mt-10">
-          <div className="flex flex-col xl:flex-row gap-4">
-            <a
-              className="w-full xl:w-1/2 h-auto relative group"
-              href="https://promptopia-mb.vercel.app/" target="_blank"
-            >
-              <div className="hover:scale-105 ease-in-out duration-300">
-                <Image 
-                  className="w-full h-full object-contain"
-                  src={promptopia}
-                  alt="promptopia"
-                  priority={true}
-                />
-              </div>
-            </a>
-
-            <div className="w-full xl:w-1/2 flex flex-col gap-4 lgl:justify-between items-end text-right xl:-ml-16 z-10">
-              <p className="font-titleFont text-textGreen text-sm tracking-wide">
-                Fullstack App
-              </p>
-              <h3 className="text-3xl lg:text-4xl font-titleFont font-bold">Promptopia</h3>
-              <p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md">
-                Aplicación fullstack desarrollada con Next.js. Permite a los usuarios publicar sus prompts para utilizarlas en una IA como ChatGPT.
-              </p>
-              <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
-                <li>React</li>
-                <li>Next.js</li>
-                <li>Next-auth</li>
-                <li>Tailwind</li>
-                <li>MongoDB</li>
-                <li>Vercel</li>
-              </ul>
-              <div className="text-2xl flex gap-4">
-                <a 
-                  className="hover:text-textGreen hover:scale-105 ease-in-out duration-300"
-                  href="https://github.com/manuel-barreiro/promptopia"
-                  target= "_blank"
-                >
-                  <TbBrandGithub />
-                </a>
-                <a 
-                  className="hover:text-textGreen hover:scale-105 ease-in-out duration-300"
-                  href="https://promptopia-mb.vercel.app/"
-                  target= "_blank"
-                >
-                  <RxOpenInNewWindow />
-                </a>
-              </div>
-            </div>
-          </div>
-        </motion.div> */}
 
         {/* RemindMe */}
         <motion.div 
@@ -236,8 +235,8 @@ const Projects = () => {
                 Aplicación que le permite a los usuarios crear y guardar recordatorios. Desarrollada en TypeScript con Next.js utilizando server actions, TailwindCSS, y Prisma con PostgreSQL.
               </p>
               <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
-                <li>Next.js</li>
                 <li>TypeScript</li>
+                <li>Next.js</li>
                 <li>Tailwind</li>
                 <li>Prisma</li>
               </ul>
