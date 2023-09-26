@@ -7,6 +7,13 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Manuel Barreiro',
   description: 'Manuel Barreiro Portfolio',
+  openGraph: {
+    type: 'website',
+    title: 'Manuel Barreiro',
+    description: 'Manuel Barreiro Portfolio',
+    url: 'https://manuel-barreiro.com',
+    images: ['/favicon.ico'],
+  }
 }
 
 // NextFonts
