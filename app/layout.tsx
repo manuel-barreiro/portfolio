@@ -18,6 +18,7 @@ export const metadata: Metadata = {
 
 // NextFonts
 import { Inter, Montserrat, Unbounded } from 'next/font/google'
+import Script from 'next/script'
 
 const inter = Inter({
   subsets: ['latin'],
@@ -47,6 +48,15 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${inter.variable} ${unbounded.variable} scrollbar-hide`}>
+      <Script src="https://scripts.simpleanalyticscdn.com/latest.js"  />
+      <noscript>
+        {/* eslint-disable @next/next/no-img-element */}
+        <img
+          src="https://queue.simpleanalyticscdn.com/noscript.gif"
+          alt=""
+          referrerPolicy="no-referrer-when-downgrade"
+        />
+      </noscript>
       <body className='scrollbar-hide'>
         {children}
       </body>
