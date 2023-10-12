@@ -47,7 +47,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className={`${inter.variable} ${unbounded.variable} scrollbar-hide`}>
+    <html lang="es" className={`${inter.variable} ${unbounded.variable} scrollbar-hide`}>
       <Script src="https://scripts.simpleanalyticscdn.com/latest.js"  />
       <noscript>
         {/* eslint-disable @next/next/no-img-element */}
