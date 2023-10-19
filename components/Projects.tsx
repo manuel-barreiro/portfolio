@@ -273,15 +273,20 @@ const Projects = () => {
             <div
               className="w-full xl:w-1/2 h-auto relative group"
             >
-              <div className="hover:scale-105 ease-in-out duration-300">
-                <Image 
-                  className="w-full h-full object-contain"
-                  src={coccions}
-                  alt="coccions"
-                  priority={true}
-                  placeholder="blur"
-                />
-              </div>
+              <a
+              className="w-full xl:w-1/2 h-auto relative group"
+              href="https://coccions.com.ar/" target="_blank"
+              >
+                <div className="hover:scale-105 ease-in-out duration-300">
+                  <Image 
+                    className="w-full h-full object-contain"
+                    src={coccions}
+                    alt="coccions"
+                    priority={true}
+                    placeholder="blur"
+                  />
+                </div>
+              </a>
             </div>
 
             <div className="w-full xl:w-1/2 flex flex-col gap-4 lgl:justify-between items-end text-right z-10">
