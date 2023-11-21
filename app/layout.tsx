@@ -48,15 +48,14 @@ export default function RootLayout({
 }) {
   return (
     <html lang="es" className={`${inter.variable} ${unbounded.variable} scrollbar-hide`}>
-      <Script src="https://scripts.simpleanalyticscdn.com/latest.js"  />
-      <noscript>
-        {/* eslint-disable @next/next/no-img-element */}
+      {/* <Script src="https://scripts.simpleanalyticscdn.com/latest.js"  /> */}
+      {/* <noscript>
         <img
           src="https://queue.simpleanalyticscdn.com/noscript.gif"
           alt=""
           referrerPolicy="no-referrer-when-downgrade"
         />
-      </noscript>
+      </noscript> */}
       <body className='scrollbar-hide'>
         {children}
       </body>

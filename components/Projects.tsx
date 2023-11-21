@@ -1,6 +1,6 @@
 'use client';
 
-import { power, boxmoment, bluesphere, coccions, snaphive, remindMe, devaluApp } from "@/public"
+import { power, boxmoment, bluesphere, coccions, snaphive, remindMe, devaluApp, shortcut } from "@/public"
 import SectionTitle from "./SectionTitle"
 import Image from "next/image"
 import { TbBrandGithub } from "react-icons/tb"
@@ -23,6 +23,65 @@ const Projects = () => {
     <section id='projects' className='max-w-contentContainer mx-auto lgl:px-20 py-24'>
       <SectionTitle title='Proyectos recientes' />
       <div className="w-full flex flex-col items-center justify-between gap-16 mt-5">
+
+        {/* ShortCut */}
+        <motion.div
+          variants={leftVariant}
+          initial="initial"
+          whileInView="animate"
+          viewport={{ once: true,
+                      amount: 0.5 }}
+          transition= {{ duration: 0.5, delay: 0.5 }}
+          className="w-full flex flex-col items-center justify-center gap-28 mt-10">
+          <div className="flex flex-col xl:flex-row gap-4">
+            <a
+              className="w-full xl:w-1/2 h-auto relative group"
+              href="https://shortcut.com.ar/" target="_blank"
+            >
+              <div className="hover:scale-105 ease-in-out duration-300">
+                <Image 
+                  className="w-full h-full object-contain"
+                  src={shortcut}
+                  alt="Power Consultant"
+                  priority={true}
+                  placeholder="blur"
+                />
+              </div>
+            </a>
+
+            <div className="w-full xl:w-1/2 flex flex-col gap-4 lgl:justify-between items-start md:items-end text-right xl:-ml-16 z-10">
+              <p className="font-titleFont text-textGreen text-sm tracking-wide">
+                Application
+              </p>
+              <h3 className="text-3xl lg:text-4xl font-titleFont font-bold">ShortCut</h3>
+              <p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md">
+                Diseño y Desarrollo de applicación web para bar en Buenos Aires, con sistema de pedidos con procesamiento de pagos via Mercado Pago. Email notifications con Resend
+              </p>
+              <ul className="ml-10 text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
+                <li>Next.js</li>
+                <li>TypeScript</li>
+                <li>MercadoPago</li>
+                <li>MongoDB</li>
+              </ul>
+              <div className="text-2xl flex gap-4">
+                <a 
+                  className="hover:text-textGreen hover:scale-105 ease-in-out duration-300"
+                  href="https://github.com/manuel-barreiro/intime"
+                  target= "_blank"
+                >
+                  <TbBrandGithub />
+                </a>
+                <a 
+                  className="hover:text-textGreen hover:scale-105 ease-in-out duration-300"
+                  href="https://shortcut.com.ar/"
+                  target= "_blank"
+                >
+                  <RxOpenInNewWindow />
+                </a>
+              </div>
+            </div>
+          </div>
+        </motion.div>
 
         {/* DevaluApp */}
         <motion.div 
