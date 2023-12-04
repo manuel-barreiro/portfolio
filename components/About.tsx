@@ -17,13 +17,13 @@ const About = () => {
                 <span className="text-textGreen">
                   <AiFillThunderbolt/>
                 </span>
-                JavaScript
+                TypeScript
               </li>
               <li className="flex items-center gap-2">
                 <span className="text-textGreen">
                   <AiFillThunderbolt/>
                 </span>
-                TypeScript
+                Python
               </li>
               <li className="flex items-center gap-2">
                 <span className="text-textGreen">
@@ -41,7 +41,7 @@ const About = () => {
                 <span className="text-textGreen">
                   <AiFillThunderbolt/>
                 </span>
-                Next.js 13
+                Next.js
               </li>
               <li className="flex items-center gap-2">
                 <span className="text-textGreen">
@@ -59,7 +59,7 @@ const About = () => {
                 <span className="text-textGreen">
                   <AiFillThunderbolt/>
                 </span>
-                Python
+                Figma
               </li>
             </ul>
           </div>
