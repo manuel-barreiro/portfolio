@@ -1,6 +1,6 @@
 'use client';
 
-import { power, boxmoment, bluesphere, coccions, snaphive, remindMe, devaluApp, shortcut } from "@/public"
+import { power, boxmoment, bluesphere, coccions, snaphive, remindMe, devaluApp, shortcut, tablemaster } from "@/public"
 import SectionTitle from "./SectionTitle"
 import Image from "next/image"
 import { TbBrandGithub } from "react-icons/tb"
@@ -23,6 +23,65 @@ const Projects = () => {
     <section id='projects' className='max-w-contentContainer mx-auto lgl:px-20 py-24'>
       <SectionTitle title='Proyectos recientes' />
       <div className="w-full flex flex-col items-center justify-between gap-16 mt-5">
+
+        {/* TableMaster */}
+        <motion.div 
+          variants={rightVariant}
+          initial="initial"
+          whileInView="animate"
+          viewport={{ once: true,
+                      amount: 0.5 }}
+          transition= {{ duration: 0.5, delay: 0.5 }}
+          className="w-full flex flex-col items-center justify-center gap-28 mt-10">
+          <div className="flex flex-col xl:flex-row-reverse gap-4">
+            <a
+              className="w-full xl:w-1/2 h-auto relative group"
+              href="https://tablemaster.vercel.app/" target="_blank"
+            >
+              <div className="hover:scale-105 ease-in-out duration-300">
+                <Image 
+                  className="w-full h-full object-contain"
+                  src={tablemaster}
+                  alt="Box Moment"
+                  priority={true}
+                  placeholder="blur"
+                />
+              </div>
+            </a>
+
+            <div className="w-full xl:w-1/2 flex flex-col gap-4 lgl:justify-between items-end text-right z-10">
+              <p className="font-titleFont text-textGreen text-sm tracking-wide">
+                Application
+              </p>
+              <h3 className="text-3xl lg:text-4xl font-titleFont font-bold">TableMaster</h3>
+              <p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md lg:-mr-16">
+                Desarrollo en progreso de aplicación para reservar mesas en resaturantes. Desarrollado en React utilizando Next, y Tailwind CSS para los estilos.
+              </p>
+              <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
+                <li>TypeScript</li>
+                <li>React</li>
+                <li>Next.js</li>
+                <li>Tailwind</li>
+              </ul>
+              <div className="text-2xl flex gap-4">
+                <a 
+                  className="hover:text-textGreen hover:scale-105 ease-in-out duration-300"
+                  href="https://github.com/manuel-barreiro/tablemaster"
+                  target= "_blank"
+                >
+                  <TbBrandGithub />
+                </a>
+                <a 
+                  className="hover:text-textGreen hover:scale-105 ease-in-out duration-300"
+                  href="https://tablemaster.vercel.app/"
+                  target= "_blank"
+                >
+                  <RxOpenInNewWindow />
+                </a>
+              </div>
+            </div>
+          </div>
+        </motion.div>
 
         {/* ShortCut */}
         <motion.div

@@ -7,6 +7,7 @@ import boxmoment from "./assets/boxmoment.png"
 import remindMe from "./assets/remindMe.png"
 import devaluApp from "./assets/devaluapp.png"
 import shortcut from "./assets/shortcut.png"
+import tablemaster from "./assets/tablemaster.png"
 
 
-export { promptopia, snaphive, coccions, bluesphere, power, boxmoment, remindMe, devaluApp, shortcut };
+export { promptopia, snaphive, coccions, bluesphere, power, boxmoment, remindMe, devaluApp, shortcut, tablemaster };
