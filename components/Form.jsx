@@ -124,7 +124,7 @@ export default function ContactForm() {
                                     className="flex justify-center items-center gap-2 px-4 py-2 rounded-md text-textGreen text-md border border-textGreen hover:bg-textGreen/10 duration-300 w-full cursor-pointer"
                                 >
                                     <GrMail size={20} />
-                                    <p className='mt-1'>Enviar</p> 
+                                    <p className='mt-1'>Send</p> 
                                 </button>
                             </div>
                     </div>

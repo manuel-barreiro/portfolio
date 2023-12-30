@@ -8,66 +8,66 @@
 
 export const name_validation = {
     name: 'nombre',
-    label: 'Nombre',
+    label: 'Name',
     type: 'text',
     id: 'name',
     placeholder: '',
     validation: {
       required: {
         value: true,
-        message: 'Requerido',
+        message: 'Required',
       },
       minLength: {
         value: 3,
-        message: 'Mínimo 3 caracteres',
+        message: '3 characters minimum',
       },
       maxLength: {
         value: 30,
-        message: 'Máximo 30 caracteres',
+        message: '30 characters maximum',
       },
     },
   }
   
   export const consulta_validation = {
     name: 'consulta',
-    label: 'Consulta',
+    label: 'Enquiry',
     multiline: true,
     id: 'consulta',
     placeholder: '',
     validation: {
       required: {
         value: true,
-        message: 'Requerido',
+        message: 'Required',
       },
       minLength: {
-        value: 20,
-        message: 'Mínimo 20 caracteres',
+        value: 10,
+        message: '10 characters minimum',
       },
       maxLength: {
         value: 200,
-        message: 'Máximo 200 caracteres',
+        message: '200 characters maximum',
       },
     },
   }
   
   export const cell_validation = {
     name: 'telefono',
-    label: 'Teléfono',
+    label: 'Phone',
     type: 'number',
     id: 'cell',
     placeholder: '',
     validation: {
       required: {
         value: true,
-        message: 'Requerido',
+        message: 'Required',
       },
       maxLength: {
         value: 15,
-        message: 'Ingrese teléfono válido',
+        message: 'Enter a valid phone number',
       },
       minLength: {
-        value: 10,
-        message: 'Ingrese teléfono válido',
+        value: 8,
+        message: 'Enter a valid phone number',
       },
     },
   }
@@ -82,12 +82,12 @@ export const name_validation = {
     validation: {
       required: {
         value: true,
-        message: 'Requerido',
+        message: 'Required',
       },
       pattern: {
         value:
           /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/,
-        message: 'Ingrese e-mail válido',
+        message: 'Enter a valid email address',
       },
     },
   }
