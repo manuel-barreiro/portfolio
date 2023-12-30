@@ -49,7 +49,7 @@ function Navbar() {
                             animate={{ y: 0,  opacity: 1 }}
                             transition= {{ duration: 0.1 }}
                         >
-                            Inicio
+                            Home
                         </motion.li>
                     </Link>
                     <Link 
@@ -61,7 +61,7 @@ function Navbar() {
                             animate={{ y: 0,  opacity: 1 }}
                             transition={{ duration: 0.1, delay: 0.1 }}
                         >
-                            Sobre mí
+                            About me
                         </motion.li>
                     </Link>
                     <Link
@@ -73,7 +73,7 @@ function Navbar() {
                             animate={{ y: 0,  opacity: 1 }}
                             transition={{ duration: 0.1, delay: 0.2 }}
                         >
-                            Experiencia
+                            Experience
                         </motion.li>
                     </Link>
                     <Link
@@ -85,7 +85,7 @@ function Navbar() {
                             animate={{ y: 0,  opacity: 1 }}
                             transition={{ duration: 0.1, delay: 0.3 }}
                         >
-                            Proyectos
+                            Projects
                         </motion.li>
                     </Link>
                     <Link 
@@ -97,7 +97,7 @@ function Navbar() {
                             animate={{ y: 0,  opacity: 1 }}
                             transition={{ duration: 0.1, delay: 0.4 }}
                         >
-                            Contacto
+                            Contact
                         </motion.li>
                     </Link>
                 </ul>
@@ -108,7 +108,7 @@ function Navbar() {
                         transition={{ delay: 0.6, ease: "easeIn" }}
                         className='px-4 py-2 rounded-md text-textGreen text-[13px] border border-textGreen hover:bg-textGreen/10 duration-300'
                     >
-                        CV
+                        Resume
                     </motion.button>
                 </a>
             </div>

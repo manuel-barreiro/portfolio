@@ -21,7 +21,7 @@ const Projects = () => {
 
   return (
     <section id='projects' className='max-w-contentContainer mx-auto lgl:px-20 py-24'>
-      <SectionTitle title='Proyectos recientes' />
+      <SectionTitle title='Recent projects' />
       <div className="w-full flex flex-col items-center justify-between gap-16 mt-5">
 
         {/* TableMaster */}
@@ -55,7 +55,7 @@ const Projects = () => {
               </p>
               <h3 className="text-3xl lg:text-4xl font-titleFont font-bold">TableMaster</h3>
               <p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md lg:-mr-16">
-                Desarrollo en progreso de aplicación para reservar mesas en resaturantes. Desarrollado en React utilizando Next, y Tailwind CSS para los estilos.
+              Ongoing development of a restaurant table reservation application. Developed using React with Next.js and styled with Tailwind CSS.
               </p>
               <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
                 <li>TypeScript</li>
@@ -114,7 +114,7 @@ const Projects = () => {
               </p>
               <h3 className="text-3xl lg:text-4xl font-titleFont font-bold">ShortCut</h3>
               <p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md">
-                Diseño y Desarrollo de applicación web para bar en Buenos Aires, con sistema de pedidos con procesamiento de pagos via Mercado Pago. Email notifications con Resend
+              Design and development of a web application for a bar in Buenos Aires, featuring an order system integrated with Mercado Pago for payment processing. Includes email notifications with resend functionality.
               </p>
               <ul className="ml-10 text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
                 <li>Next.js</li>
@@ -173,7 +173,7 @@ const Projects = () => {
               </p>
               <h3 className="text-3xl lg:text-4xl font-titleFont font-bold">DevaluApp</h3>
               <p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md lg:-mr-16">
-                La inflación en Argentina está cada vez peor. DevaluApp te permite calcular la devalución de tu sueldo en relación al valor del dólar blue. Lo hace mediante la API de Bluelytics. Desarrollado en React utilizando Next, y Tailwind CSS para los estilos.
+              Inflation in Argentina is worsening by the day. DevaluApp helps you calculate the devaluation of your salary in relation to the value of the US dollar. It does so using the Bluelytics API. Developed in React using Next.js, with styling done through Tailwind CSS.
               </p>
               <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
                 <li>TypeScript</li>
@@ -232,7 +232,7 @@ const Projects = () => {
               </p>
               <h3 className="text-3xl lg:text-4xl font-titleFont font-bold">Power Consultant</h3>
               <p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md">
-                Diseño y desarrollo (Figma to code) de landing page empresarial y catálogo de productos. Desarrollado con Next.js 13 (app router), optimizado aprovechando SSR.
+              Design and development (Figma to code) of a corporate landing page and product catalog. Developed using Next.js 13 (app router), optimized by leveraging SSR (Server-Side Rendering).
               </p>
               <ul className="ml-10 text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
                 <li>Next.js</li>
@@ -291,7 +291,7 @@ const Projects = () => {
               </p>
               <h3 className="text-3xl lg:text-4xl font-titleFont font-bold">Box Moment</h3>
               <p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md lg:-mr-16">
-                Diseño y desarrollo de landing page para empresa de cajas navideñas. Desarrollado en React utilizando Vite, y Tailwind CSS para los estilos, deploy en hosting de la empresa.
+              Design and development of a landing page for a Christmas gift box company. Developed in React using Vite, with Tailwind CSS for styling, and deployed on the company&apos;s hosting.
               </p>
               <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
                 <li>React</li>
@@ -350,7 +350,7 @@ const Projects = () => {
               </p>
               <h3 className="text-3xl lg:text-4xl font-titleFont font-bold">RemindMe</h3>
               <p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md">
-                Aplicación que le permite a los usuarios crear y guardar recordatorios. Desarrollada en TypeScript con Next.js utilizando server actions, TailwindCSS, y Prisma con PostgreSQL.
+              An application enabling users to create and save reminders. Developed in TypeScript with Next.js, leveraging server actions, Tailwind CSS, and Prisma with PostgreSQL.
               </p>
               <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
                 <li>TypeScript</li>
@@ -378,7 +378,7 @@ const Projects = () => {
           </div>
         </motion.div>
 
-        {/* SnapHive */}
+        {/* Coccions */}
         <motion.div 
         variants={rightVariant}
         initial="initial"
@@ -413,7 +413,7 @@ const Projects = () => {
               </p>
               <h3 className="text-3xl lg:text-4xl font-titleFont font-bold">Coccions</h3>
               <p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md lg:-mr-16">
-                Diseño y desarrollo de landing page y catálogo web de productos para empresa de pastelería.
+                Design and development of a landing page and web product catalog for a pastry company.
               </p>
               <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
                 <li>HTML</li>
@@ -472,7 +472,7 @@ const Projects = () => {
               </p>
               <h3 className="text-3xl lg:text-4xl font-titleFont font-bold">SnapHive</h3>
               <p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md">
-                Aplicación full stack desarrollada con estructura MVC. Express.js, Passport.js, MongoDB. Permite a los usuarios publicar, likear y comentar imágenes.
+              A full-stack application developed using an MVC structure. Built with Express.js, Passport.js for authentication, and MongoDB. Allows users to publish, like, and comment on images.
               </p>
               <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
                 <li>Express.js</li>
