@@ -148,7 +148,7 @@ function Navbar() {
                                                 ease: "easeIn", 
                                             }}
                                         >
-                                            Inicio
+                                            Home
                                         </motion.li>
                                     </Link>
                                     <Link 
@@ -165,7 +165,7 @@ function Navbar() {
                                                 ease: "easeIn", 
                                             }}
                                         >
-                                            Sobre mí
+                                            About me
                                         </motion.li>
                                     </Link>
                                     <Link
@@ -182,7 +182,7 @@ function Navbar() {
                                                 ease: "easeIn", 
                                             }}
                                         >
-                                            Experiencia
+                                            Experience
                                         </motion.li>
                                     </Link>
                                     <Link
@@ -199,7 +199,7 @@ function Navbar() {
                                                 ease: "easeIn", 
                                             }}
                                         >
-                                            Proyectos
+                                            Projects
                                         </motion.li>
                                     </Link>
                                     <Link 
@@ -216,7 +216,7 @@ function Navbar() {
                                                 ease: "easeIn", 
                                             }}
                                         >
-                                            Contacto
+                                            Contact
                                         </motion.li>
                                     </Link>
                                 </ul>
@@ -227,7 +227,7 @@ function Navbar() {
                                         transition={{ delay: 0.6, ease: "easeIn" }}
                                         className='px-4 py-2 rounded-md text-textGreen text-[13px] border border-textGreen hover:bg-hoverColor duration-300 w-full'
                                     >
-                                        CV
+                                        Resume
                                     </motion.button>
                                 </a>
                                 <div className="flex gap-6">
