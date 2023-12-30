@@ -24,6 +24,7 @@ import { GrMail } from 'react-icons/gr'
 import { BsFillPatchCheckFill, BsFillPatchExclamationFill } from 'react-icons/bs'
 import { TbBrandGithub } from "react-icons/tb";
 import { SlSocialTwitter, SlSocialLinkedin } from "react-icons/sl";
+import { IoCall } from "react-icons/io5";
 import { AiOutlineWhatsApp } from "react-icons/ai";
 import { BiMessageRounded } from "react-icons/bi";
 import emailjs from '@emailjs/browser';
@@ -79,6 +80,11 @@ export default function ContactForm() {
                                     <a href="sms:+61481270364?&body=Hi%2520there%252C%2520I%2527d%2520like%2520to%2520place%2520an%2520order%2520for..." target="_blank">
                                         <span className="w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300">
                                             <BiMessageRounded />
+                                        </span>
+                                    </a>
+                                    <a href="tel:6031112298">
+                                        <span className="w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300">
+                                            <IoCall />
                                         </span>
                                     </a>
                                     <a href="https://www.linkedin.com/in/manuel-barreiro/" target="_blank">
