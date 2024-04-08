@@ -8,6 +8,7 @@ import remindMe from "./assets/remindMe.png"
 import devaluApp from "./assets/devaluapp.png"
 import shortcut from "./assets/shortcut.png"
 import tablemaster from "./assets/tablemaster.png"
+import zzautomotores from "./assets/zzautomotores.png"
 
 
-export { promptopia, snaphive, coccions, bluesphere, power, boxmoment, remindMe, devaluApp, shortcut, tablemaster };
+export { promptopia, snaphive, coccions, bluesphere, power, boxmoment, remindMe, devaluApp, shortcut, tablemaster, zzautomotores };

@@ -19,26 +19,26 @@ const Freelance = () => {
             <span className='text-textGreen tracking-wide'>| Freelance</span>
         </h3>
         <p className='text-sm mt-1 font-medium text-textDark'>
-            October 2022 - Present
+            Octubre 2022 - Presente
         </p>
         <ul className='text-sm mt-3 font-medium text-textDark'>
             <li className='text-base flex gap-2 text-textDark'>
                 <span className='text-textGreen mt-1'>
                     <TiArrowForward />
                 </span>
-                Managing end-to-end development of web applications or systems for clients.
+                Gestión del desarrollo completo de sitios web o aplicaciones para clientes.
             </li>
             <li className='text-base flex gap-2 text-textDark mt-2'>
                 <span className='text-textGreen mt-1'>
                     <TiArrowForward />
                 </span>
-                Collaborating closely with clients to understand project requirements and deliver custom solutions.
+                Comunicación con los clientes para comprender los requisitos del proyecto y entregar soluciones personalizadas.
             </li>
             <li className='text-base flex gap-2 text-textDark mt-2'>
                 <span className='text-textGreen mt-1'>
                     <TiArrowForward />
                 </span>
-                Handling database management and ensuring data security and integrity.
+                Gestión de bases de datos y garantizando la seguridad e integridad de los datos.
             </li>
         </ul>
     </motion.div>

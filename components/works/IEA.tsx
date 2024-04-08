@@ -19,7 +19,7 @@ const IEA = () => {
             <span className='text-textGreen tracking-wide'>| Instituto de Energía Austral</span>
         </h3>
         <p className='text-sm mt-1 font-medium text-textDark'>
-            Octubre 2021 - Actualidad
+            Octubre 2021 - Diciembre 2023
         </p>
         <ul className='text-sm mt-3 font-medium text-textDark'>
             <li className='text-base flex gap-2 text-textDark'>

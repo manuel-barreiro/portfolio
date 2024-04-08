@@ -61,7 +61,7 @@ function Navbar() {
                             animate={{ y: 0,  opacity: 1 }}
                             transition={{ duration: 0.1, delay: 0.1 }}
                         >
-                            About me
+                            Sobre mí
                         </motion.li>
                     </Link>
                     <Link
@@ -73,7 +73,7 @@ function Navbar() {
                             animate={{ y: 0,  opacity: 1 }}
                             transition={{ duration: 0.1, delay: 0.2 }}
                         >
-                            Experience
+                            Experiencia
                         </motion.li>
                     </Link>
                     <Link
@@ -85,7 +85,7 @@ function Navbar() {
                             animate={{ y: 0,  opacity: 1 }}
                             transition={{ duration: 0.1, delay: 0.3 }}
                         >
-                            Projects
+                            Proyectos
                         </motion.li>
                     </Link>
                     <Link 
@@ -97,7 +97,7 @@ function Navbar() {
                             animate={{ y: 0,  opacity: 1 }}
                             transition={{ duration: 0.1, delay: 0.4 }}
                         >
-                            Contact
+                            Contacto
                         </motion.li>
                     </Link>
                 </ul>
@@ -108,7 +108,7 @@ function Navbar() {
                         transition={{ delay: 0.6, ease: "easeIn" }}
                         className='px-4 py-2 rounded-md text-textGreen text-[13px] border border-textGreen hover:bg-textGreen/10 duration-300'
                     >
-                        Resume
+                        CV
                     </motion.button>
                 </a>
             </div>
@@ -165,7 +165,7 @@ function Navbar() {
                                                 ease: "easeIn", 
                                             }}
                                         >
-                                            About me
+                                            Sobre mí
                                         </motion.li>
                                     </Link>
                                     <Link
@@ -182,7 +182,7 @@ function Navbar() {
                                                 ease: "easeIn", 
                                             }}
                                         >
-                                            Experience
+                                            Experiencia
                                         </motion.li>
                                     </Link>
                                     <Link
@@ -199,7 +199,7 @@ function Navbar() {
                                                 ease: "easeIn", 
                                             }}
                                         >
-                                            Projects
+                                            Proyectos
                                         </motion.li>
                                     </Link>
                                     <Link 
@@ -216,7 +216,7 @@ function Navbar() {
                                                 ease: "easeIn", 
                                             }}
                                         >
-                                            Contact
+                                            Contacto
                                         </motion.li>
                                     </Link>
                                 </ul>
@@ -227,7 +227,7 @@ function Navbar() {
                                         transition={{ delay: 0.6, ease: "easeIn" }}
                                         className='px-4 py-2 rounded-md text-textGreen text-[13px] border border-textGreen hover:bg-hoverColor duration-300 w-full'
                                     >
-                                        Resume
+                                        CV
                                     </motion.button>
                                 </a>
                                 <div className="flex gap-6">

@@ -8,7 +8,7 @@
 
 export const name_validation = {
     name: 'nombre',
-    label: 'Name',
+    label: 'Nombre',
     type: 'text',
     id: 'name',
     placeholder: '',
@@ -30,7 +30,7 @@ export const name_validation = {
   
   export const consulta_validation = {
     name: 'consulta',
-    label: 'Enquiry',
+    label: 'Consulta',
     multiline: true,
     id: 'consulta',
     placeholder: '',
@@ -52,7 +52,7 @@ export const name_validation = {
   
   export const cell_validation = {
     name: 'telefono',
-    label: 'Phone',
+    label: 'Teléfono',
     type: 'number',
     id: 'cell',
     placeholder: '',

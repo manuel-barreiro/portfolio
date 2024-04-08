@@ -49,7 +49,7 @@ const Experience = () => {
       id='experience'
       className='max-w-containerxs mx-auto py-10 lgl:py-24 px-4'
     >
-      <SectionTitle title='Experience' />
+      <SectionTitle title='Experiencia' />
       <div className='w-full mt-10 flex flex-col md:flex-row gap-16'>
         <ul className='md:w-32 flex flex-col'>
           <li 
@@ -72,7 +72,7 @@ const Experience = () => {
             >
             We Plan
           </li>
-          {/* <li 
+          <li 
             onClick={handleIEA} 
             className={`${
               workIEA
@@ -81,7 +81,7 @@ const Experience = () => {
             } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}
           >
             IEA
-          </li> */}
+          </li>
           <li 
             onClick={handleFerrero}
             className={`${
@@ -95,7 +95,7 @@ const Experience = () => {
         </ul>
         {workFreelance && <Freelance />}
         {workWePlan && <Weplan />}
-        {/* {workIEA && <IEA />} */}
+        {workIEA && <IEA />}
         {workFerrero && <Ferrero />}
         
       </div>

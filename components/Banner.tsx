@@ -12,7 +12,7 @@ const Banner = () => {
             transition= {{ duration: 0.5, delay: 0.6 }} 
             className='text-lg font-titleFont tracking-wide text-textGreen'
         >
-            Hi there, my name is
+            Hola, mi nombre es
         </motion.h3>
 
         <motion.h1
@@ -23,7 +23,7 @@ const Banner = () => {
         >
             Manuel Barreiro.{' '} 
             <span className='text-textDark mt-2 lgl:mt-4 text-2xl md:text-3xl lgl:text-6xl'>
-                Engineer | Developer
+                Ingeniero | Developer
             </span>
         </motion.h1>
 
@@ -33,7 +33,7 @@ const Banner = () => {
             transition= {{ duration: 0.5, delay: 0.8 }} 
             className='text-base md:max-w-[650px] text-textDark font-medium'
         >
-            Tech enthusiast with a software engineering background. My engineering training honed my skills in full-stack development and software architecture. Driven by my coding passion, I&apos;ve crafted responsive web pages and applications using diverse frameworks. {' '}
+            Apasionado por la tecnología y la programación. Soy ingeniero experimentado en desarrollo full-stack. Construyo sitios web y aplicaciones usando los frameworks más modernos, impulsado por mi pasión por la programación. {' '}
         </motion.p>
         
         <Link href="#about">
@@ -43,7 +43,7 @@ const Banner = () => {
             transition= {{ duration: 0.5, delay: 0.9 }} 
             className='w-52 h-14 text-sm font-titleFont border border-textGreen rounded-md text-textGreen tracking-wide hover:bg-textGreen/10 duration-300'
         >
-            About me
+            Sobre mí
         </motion.button>
         </Link>
 

@@ -12,33 +12,33 @@ const Weplan = () => {
         className='w-full'
     >
         <h3 className='flex gap-1 font-medium text-xl font-titleFont'>
-            Software Engineer
+            Data Engineer
             <span className='hidden md:inline text-textGreen tracking-wide'>| We Plan LATAM</span>
         </h3>
         <h3 className='md:hidden flex gap-1 font-medium text-xl font-titleFont'>
             <span className='text-textGreen tracking-wide'>| We Plan LATAM</span>
         </h3>
         <p className='text-sm mt-1 font-medium text-textDark'>
-            May 2022 - December 2023
+            Mayo 2022 - Deciembre 2023
         </p>
         <ul className='text-sm mt-3 font-medium text-textDark'>
             <li className='text-base flex gap-2 text-textDark'>
                 <span className='text-textGreen mt-1'>
                     <TiArrowForward />
                 </span>
-                Assisting in the development of software applications.
+                Asistencia en el desarrollo e implementación de aplicaciones
             </li>
             <li className='text-base flex gap-2 text-textDark mt-1'>
                 <span className='text-textGreen mt-1'>
                     <TiArrowForward />
                 </span>
-                Participating in code reviews and quality assurance processes. 
+                Revisiones de código y procesos de aseguramiento de calidad
             </li>
             <li className='text-base flex gap-2 text-textDark mt-1'>
                 <span className='text-textGreen mt-1'>
                     <TiArrowForward />
                 </span>
-                Contributing to the design and documentation of software systems.
+                Contribuir al diseño y documentación de sistemas de software
             </li>
         </ul>
     </motion.div>
