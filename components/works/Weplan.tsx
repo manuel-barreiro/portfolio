@@ -38,7 +38,7 @@ const Weplan = () => {
                 <span className='text-textGreen mt-1'>
                     <TiArrowForward />
                 </span>
-                Contribuir al diseño y documentación de sistemas de software
+                Generación de documentación de sistemas de software
             </li>
         </ul>
     </motion.div>
