@@ -7,7 +7,7 @@ const Projects = () => {
 
   return (
     <section id='projects' className='max-w-contentContainer mx-auto lgl:px-20 py-24'>
-      <SectionTitle title='Recent projects' />
+      <SectionTitle title='Proyectos recientes' />
       <div className="w-full flex flex-col items-center justify-between gap-16 mt-5">
         {projects.map((project, index) => {
           if (index % 2 === 0) {

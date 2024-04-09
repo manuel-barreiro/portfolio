@@ -26,7 +26,7 @@ const Freelance = () => {
                 <span className='text-textGreen mt-1'>
                     <TiArrowForward />
                 </span>
-                Gestión del desarrollo completo de sitios web o aplicaciones para clientes.
+                 Desarrollo completo de sitios web o aplicaciones para clientes.
             </li>
             <li className='text-base flex gap-2 text-textDark mt-2'>
                 <span className='text-textGreen mt-1'>

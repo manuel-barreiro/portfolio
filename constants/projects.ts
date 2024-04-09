@@ -42,7 +42,7 @@ export const projects: Project[] = [
   {
     category: 'Aplicación web',
     name: 'DevaluApp',
-    description: 'La inflación en Argentina empeora día a día. DevaluApp te ayuda a calcular la devaluación de tu salario en relación al valor del dólar estadounidense. Lo hace utilizando la API de Bluelytics. Desarrollado en React utilizando Next.js, con estilos realizados a través de Tailwind CSS.',
+    description: 'DevaluApp te ayuda a calcular la devaluación de tu salario en relación al valor del dólar estadounidense. Lo hace utilizando la API de Bluelytics. Desarrollado utilizando Next.js, con estilos realizados a través de Tailwind CSS.',
     image: devaluApp,
     tools: ['TypeScript', 'Next.js', 'Tailwind CSS'],
     href: 'https://devaluapp.ar/',
@@ -51,7 +51,7 @@ export const projects: Project[] = [
   {
     category: 'Landing page',
     name: 'Box Moment',
-    description: 'Diseño y desarrollo de una página de destino para una empresa de cajas de regalo de Navidad. Desarrollado en React utilizando Vite, con Tailwind CSS para el estilo, y desplegado en el hosting de la empresa.',
+    description: 'Diseño y desarrollo de landing page para una empresa de cajas de regalo de Navidad. Desarrollado en React utilizando Vite, con Tailwind CSS, y desplegado en el hosting de la empresa.',
     image: boxmoment,
     tools: ['React', 'Vite', 'Tailwind CSS', 'EmailJS'],
     href: 'https://boxmoment.com.ar/',
@@ -76,9 +76,9 @@ export const projects: Project[] = [
     github: 'https://github.com/manuel-barreiro/remind-me'
   },
   {
-    category: 'Aplicación web',
+    category: 'Landing page y catálogo web',
     name: 'Coccions',
-    description: 'Diseño y desarrollo de una aplicación web para una empresa de fotografía. Desarrollado en React utilizando Next.js, con estilos realizados a través de Tailwind CSS.',
+    description: 'Diseño y desarrollo de una catálogo web para empresa de pastelería. Desarrollado utilizando vanilla JavaScript, y CSS.',
     image: coccions,
     tools: ['HTML', 'CSS', 'JavaScript'],
     href: 'https://coccions.com.ar/',
