@@ -9,7 +9,7 @@ const About = () => {
         <div className="flex flex-col lgl:flex-row gap-16">
           <div className="w-full lgl:w-2/3 text-base text-textDark font-medium flex flex-col gap-4 text-justify">
             <p>Mi nombre es Manuel Barreiro, soy ingeniero y desarrollador full-stack.</p>
-            <p>Tengo una gran pasión por la tecnología. Siempre me ha gustado programar y sumergirme en proyectos desafiantes que me permitan ampliar mis habilidades. Estoy constantemente en búsqueda de nuevos desafíos y oportunidades para crecer como <span className="text-textGreen">ingeniero y desarrollador.</span></p>
+            <p>Siempre me ha gustado programar y sumergirme en proyectos desafiantes que me permitan ampliar mis habilidades. Estoy constantemente en búsqueda de nuevos desafíos y oportunidades para crecer como <span className="text-textGreen">ingeniero y desarrollador.</span></p>
             <p>Gracias por visitar mi portfolio!</p>
             <p>Algunas de las herramientas que manejo:</p>
             <ul className="max-w-[450px] text-sm font-titleFont grid grid-cols-2 gap-2 mt-6">
