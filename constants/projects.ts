@@ -13,15 +13,6 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-    category: 'Landing Page',
-    name: 'Z&Z Automotores',
-    description: 'Diseño y desarrollo de una landing page para un concesionario de autos. Desarrollado con Next.js y estilizado con Tailwind CSS. Envío de correos con Resend.',
-    image: zzautomotores,
-    tools: ['TypeScript', 'Next.js', 'Tailwind', 'Resend'],
-    href: 'https://zzautomotores.com.ar/',
-    github: 'https://github.com/manuel-barreiro/jmauto'
-  },
-  {
     category: 'Aplicación web',
     name: 'Shortcut',
     description: 'Diseño y desarrollo de una aplicación web para un bar, que cuenta con un sistema de pedidos integrado con Mercado Pago para el procesamiento de pagos. Incluye notificaciones por correo electrónico, y panel de administrador para visualizar pagos y órdenes.',
@@ -47,6 +38,15 @@ export const projects: Project[] = [
     tools: ['TypeScript', 'Next.js', 'Tailwind CSS'],
     href: 'https://devaluapp.ar/',
     github: 'https://github.com/manuel-barreiro/devaluapp'
+  },
+  {
+    category: 'Landing Page',
+    name: 'Z&Z Automotores',
+    description: 'Diseño y desarrollo de una landing page para un concesionario de autos. Desarrollado con Next.js y estilizado con Tailwind CSS. Envío de correos con Resend.',
+    image: zzautomotores,
+    tools: ['TypeScript', 'Next.js', 'Tailwind', 'Resend'],
+    href: 'https://zzautomotores.com.ar/',
+    github: 'https://github.com/manuel-barreiro/jmauto'
   },
   {
     category: 'Landing page',
