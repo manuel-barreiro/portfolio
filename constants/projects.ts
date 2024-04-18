@@ -72,7 +72,7 @@ export const projects: Project[] = [
     description: 'Una aplicación que permite a los usuarios crear y guardar recordatorios. Desarrollada en TypeScript con Next.js, aprovechando server actions, Tailwind CSS y Prisma con PostgreSQL.',
     image: remindMe,
     tools: ['TypeScript', 'Next.js', 'PostgreSQL', 'Prisma'],
-    href: 'https://mb-remindme.vercel.app/',
+    href: 'https://mb-remind-me.vercel.app/',
     github: 'https://github.com/manuel-barreiro/remind-me'
   },
   {
