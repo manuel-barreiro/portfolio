@@ -81,7 +81,7 @@ export const projects: Project[] = [
     description: 'Diseño y desarrollo de una catálogo web para empresa de pastelería. Desarrollado utilizando vanilla JavaScript, y CSS.',
     image: coccions,
     tools: ['HTML', 'CSS', 'JavaScript'],
-    href: 'https://coccions.com.ar/',
+    href: 'https://coccions.netlify.app/',
     github: 'https://github.com/manuel-barreiro/Coccions'
   },
 ]
