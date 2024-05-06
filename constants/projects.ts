@@ -1,4 +1,4 @@
-import { power, boxmoment, coccions, remindMe, devaluApp, shortcut, tablemaster, zzautomotores } from "@/public"
+import { power, boxmoment, coccions, remindMe, devaluApp, shortcut, tablemaster, zzautomotores, pokedex } from "@/public"
 import { StaticImageData } from "next/image";
 
 export type Project = {
@@ -83,5 +83,14 @@ export const projects: Project[] = [
     tools: ['HTML', 'CSS', 'JavaScript'],
     href: 'https://coccions.netlify.app/',
     github: 'https://github.com/manuel-barreiro/Coccions'
+  },
+  {
+    category: 'Aplicación Web',
+    name: 'MB Pokédex',
+    description: 'Prueba técnica realizada en 48hs para puesto de frontend developer. Lazy loading, infinite scroll. ',
+    image: pokedex,
+    tools: ['Next.js', 'TypeScript', 'Chakra UI'],
+    href: 'https://mb-pokedex.vercel.app/',
+    github: 'https://github.com/manuel-barreiro/pokemon-app'
   },
 ]

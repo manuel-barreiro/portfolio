@@ -9,6 +9,7 @@ import devaluApp from "./assets/devaluapp.png"
 import shortcut from "./assets/shortcut.png"
 import tablemaster from "./assets/tablemaster.png"
 import zzautomotores from "./assets/zzautomotores.png"
+import pokedex from "./assets/pokedex.png"
 
 
-export { promptopia, snaphive, coccions, bluesphere, power, boxmoment, remindMe, devaluApp, shortcut, tablemaster, zzautomotores };
+export { promptopia, snaphive, coccions, bluesphere, power, boxmoment, remindMe, devaluApp, shortcut, tablemaster, zzautomotores, pokedex };
