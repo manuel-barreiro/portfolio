@@ -26,10 +26,8 @@ import {
   BsFillPatchExclamationFill,
 } from "react-icons/bs";
 import { TbBrandGithub } from "react-icons/tb";
-import { SlSocialTwitter, SlSocialLinkedin } from "react-icons/sl";
-import { IoCall } from "react-icons/io5";
+import { SlSocialLinkedin } from "react-icons/sl";
 import { AiOutlineWhatsApp } from "react-icons/ai";
-import { BiMessageRounded } from "react-icons/bi";
 import emailjs from "@emailjs/browser";
 
 export default function ContactForm() {
@@ -123,8 +121,8 @@ export default function ContactForm() {
           <div className="lg:w-1/2 md:w-2/3 mx-auto">
             <div className="flex flex-wrap -m-2">
               <Input {...name_validation} className="w-full" />
-              <Input {...email_validation} />
-              <Input {...cell_validation} />
+              <Input {...email_validation} className="w-full" />
+              <Input {...cell_validation} className="w-full" />
               <Input {...consulta_validation} className="p-2 w-full" />
             </div>
             <div className="mt-5">
