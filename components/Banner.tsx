@@ -7,7 +7,7 @@ const Banner = () => {
   return (
     <section
       id="home"
-      className="scroll-m-20 lg:scroll-m--[12vh] max-w-containerSmall h-auto mx-auto py-10 mdl:py-8 flex flex-col gap-6 lgl:gap-8 mdl:px-10 xl:px-4"
+      className="scroll-m-28 lg:scroll-m-[20vh] max-w-containerSmall mx-auto mt-10 py-10 mdl:py-8 flex flex-col gap-6 lgl:gap-8 mdl:px-10 xl:px-4 h-auto min-h-[80vh]"
     >
       <motion.h3
         initial={{ y: 10, opacity: 0 }}
@@ -34,15 +34,13 @@ const Banner = () => {
         initial={{ y: 10, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.5, delay: 0.8 }}
-        className="text-base md:max-w-[650px] text-textDark font-medium"
+        className="text-base md:max-w-[650px] text-textDark font-medium text-left"
       >
         Apasionado por la tecnología y la programación. Soy ingeniero
-        experimentado en desarrollo full-stack. Construyo sitios web y
-        aplicaciones usando los frameworks más modernos, impulsado por mi pasión
-        por la programación.{" "}
+        experimentado en desarrollo full-stack.{" "}
       </motion.p>
 
-      <Link href="#about">
+      <Link href="/#about">
         <motion.button
           initial={{ y: 10, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
