@@ -19,13 +19,12 @@ function Navbar() {
 
   function handleShowMenu() {
     setShowMenu((prevState) => !prevState);
-    console.log(showMenu);
   }
 
   // Update the class name of the clicked link
 
   return (
-    <div className="w-full shadow-navbarShadow h-20 lg:h-[12vh] fixed z-50 bg-bodyColor px-4 md:px-20 lg:px-28 xl:px-32">
+    <div className="w-full shadow-navbarShadow h-20 lg:h-[12vh] fixed z-50 backdrop-blur-xl px-4 md:px-20 lg:px-28 xl:px-32">
       <div className="max-w-container h-full mx-auto py-1 font-titleFont flex items-center justify-between">
         <Link href="/#home">
           <motion.div
@@ -135,7 +134,7 @@ function Navbar() {
               initial={{ x: 20, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 0.1 }}
-              className="w-[80%] h-full overflow-y-scroll scrollbarHide bg-bodyColor flex flex-col items-center px-4 py-10 relative"
+              className="w-[80%] h-full overflow-y-scroll scrollbarHide bg-gradient-to-bl from-slate-900 to-black flex flex-col items-center px-4 py-10 relative"
             >
               <MdOutlineClose
                 onClick={handleShowMenu}
