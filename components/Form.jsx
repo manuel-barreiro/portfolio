@@ -29,6 +29,7 @@ import { TbBrandGithub } from "react-icons/tb";
 import { SlSocialLinkedin } from "react-icons/sl";
 import { AiOutlineWhatsApp } from "react-icons/ai";
 import emailjs from "@emailjs/browser";
+import MagicButton from "./MagicButton";
 
 export default function ContactForm() {
   const methods = useForm();
@@ -77,10 +78,6 @@ export default function ContactForm() {
         <h3 className="sm:text-4xl text-3xl font-bold mb-2 font-titleFont">
           Contacto
         </h3>
-        <p className="lg:w-2/3 mx-auto leading-relaxed text-sm text-gray-300">
-          Contactate a través de cualquiera de mis redes sociales o completá el
-          formulario a continuación.
-        </p>
         <div className="flex gap-6 xl:hidden ">
           <a href="mailto:ing.mbarreiro@gmail.com?Subject=Consulta">
             <span className="w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300">
@@ -138,13 +135,12 @@ export default function ContactForm() {
                   formulario
                 </p>
               )}
-              <button
+              <MagicButton
                 onClick={onSubmit}
-                className="flex justify-center items-center gap-2 px-4 py-2 rounded-md text-textGreen text-md border border-textGreen hover:bg-textGreen/10 duration-300 w-full cursor-pointer"
-              >
-                <GrMail size={20} />
-                <p>Enviar</p>
-              </button>
+                title="Enviar"
+                position="left"
+                icon={<GrMail />}
+              />
             </div>
           </div>
         </form>

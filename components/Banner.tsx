@@ -3,11 +3,16 @@
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { HeroGlobe } from "./Globe/HeroGlobe";
+import MagicButton from "./MagicButton";
+import { FaLocationArrow } from "react-icons/fa6";
 
 const Banner = () => {
   return (
-    <section id="home" className="scroll-m-28 lg:scroll-m-[20vh]">
-      <div className="max-w-containerSmall mx-auto  pt-10 mdl:pt-8 flex flex-col gap-6 lgl:gap-8 mdl:px-10 xl:px-4 h-auto">
+    <section
+      id="home"
+      className="scroll-m-28 lg:scroll-m-[20vh] min-h-[100svh]"
+    >
+      <div className="max-w-containerSmall mx-auto pt-10 mdl:pt-8 flex flex-col items-start gap-4 lgl:gap-8 mdl:px-10 xl:px-4 h-auto">
         <motion.h3
           initial={{ y: 10, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
@@ -29,31 +34,21 @@ const Banner = () => {
           </span>
         </motion.h1>
 
-        <motion.p
+        <motion.div
           initial={{ y: 10, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
-          transition={{ duration: 0.5, delay: 0.8 }}
-          className="text-base md:max-w-[650px] text-textDark font-medium text-left"
+          transition={{ duration: 0.5, delay: 0.9 }}
+          className="mt-5"
         >
-          Apasionado por la tecnología y la programación. Soy ingeniero
-          experimentado en desarrollo full-stack.{" "}
-        </motion.p>
-
-        <Link href="/#about">
-          <motion.button
-            initial={{ y: 10, opacity: 0 }}
-            animate={{ y: 0, opacity: 1 }}
-            transition={{ duration: 0.5, delay: 0.9 }}
-            className="w-52 h-14 text-sm font-titleFont border border-textGreen rounded-md text-textGreen tracking-wide hover:bg-textGreen/10 duration-300"
-          >
-            Sobre mí
-          </motion.button>
-        </Link>
+          <MagicButton
+            title="Sobre mí"
+            icon={<FaLocationArrow />}
+            position="right"
+          />
+        </motion.div>
       </div>
 
-      <div className="md:-mt-20">
-        <HeroGlobe />
-      </div>
+      {/* <HeroGlobe /> */}
     </section>
   );
 };

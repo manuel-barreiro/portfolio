@@ -24,8 +24,8 @@ function Navbar() {
   // Update the class name of the clicked link
 
   return (
-    <div className="w-full shadow-navbarShadow h-20 lg:h-[12vh] fixed z-50 backdrop-blur-xl px-4 md:px-20 lg:px-28 xl:px-32">
-      <div className="max-w-container h-full mx-auto py-1 font-titleFont flex items-center justify-between">
+    <nav className="w-full shadow-navbarShadow h-20 lg:h-[12vh] fixed z-50 backdrop-blur-xl px-10 md:px-14 xl:px-24">
+      <div className="h-full mx-auto py-1 font-titleFont flex items-center justify-between">
         <Link href="/#home">
           <motion.div
             initial={{ opacity: 0 }}
@@ -41,7 +41,7 @@ function Navbar() {
             />
           </motion.div>
         </Link>
-        <div className="hidden lgl:inline-flex items-center gap-7">
+        <div className="hidden lg:inline-flex items-center gap-7">
           <ul className="flex text-[13px] gap-7">
             <Link
               href="/#home"
@@ -119,7 +119,7 @@ function Navbar() {
 
         <div
           onClick={handleShowMenu}
-          className="w-6 h-5 flex flex-col justify-between items-center lgl:hidden text-4xl text-textGreen cursor-pointer overflow-hidden group"
+          className="w-6 h-5 flex flex-col justify-between items-center lg:hidden text-4xl text-textGreen cursor-pointer overflow-hidden group"
         >
           <span className="w-full h-[2px] bg-textGreen inline-flex transform group-hover:translate-x-2 transition-all ease-in-out duration-300"></span>
           <span className="w-full h-[2px] bg-textGreen inline-flex transform translate-x-3 group-hover:translate-x-0 transition-all ease-in-out duration-300"></span>
@@ -128,7 +128,7 @@ function Navbar() {
         {showMenu && (
           <div
             ref={(node) => (ref.current = node)}
-            className="absolute mdl:hidden top-0 right-0 w-full h-screen bg-black/50 flex flex-col col items-end"
+            className="absolute lg:hidden top-0 right-0 w-full h-screen bg-black/50 flex flex-col col items-end"
           >
             <motion.div
               initial={{ x: 20, opacity: 0 }}
@@ -269,7 +269,7 @@ function Navbar() {
           </div>
         )}
       </div>
-    </div>
+    </nav>
   );
 }
 

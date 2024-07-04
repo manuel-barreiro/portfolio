@@ -20,6 +20,7 @@ export type Project = {
   tools: string[];
   href: string;
   github?: string;
+  index?: number;
 };
 
 export const projects: Project[] = [

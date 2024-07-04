@@ -398,7 +398,7 @@ export function HeroGlobe() {
   return (
     <div className="flex flex-row items-center justify-center h-[400px] md:h-auto relative w-full">
       <div className="max-w-7xl mx-auto w-full relative overflow-hidden h-full md:h-[40rem] px-4">
-        <div className="absolute w-full h-72 md:h-full z-10">
+        <div className="absolute -bottom-2 w-full h-72 md:h-full z-10">
           <World data={sampleArcs} globeConfig={globeConfig} />;
         </div>
       </div>
