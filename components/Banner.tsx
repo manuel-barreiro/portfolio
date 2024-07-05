@@ -10,7 +10,7 @@ const Banner = () => {
   return (
     <section
       id="home"
-      className="scroll-m-28 lg:scroll-m-[20vh] min-h-[100svh] flex justify-center items-start mt-32"
+      className="scroll-m-[100vh] min-h-[100svh] flex justify-center items-start mt-32"
     >
       <div className="mx-auto flex flex-col items-start gap-4 lg:gap-8 h-auto ">
         <motion.h3

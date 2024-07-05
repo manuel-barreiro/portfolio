@@ -44,7 +44,7 @@ const Experience = () => {
   return (
     <section
       id="experience"
-      className="scroll-m-20 lg:scroll-m--[12vh] max-w-containerxs mx-auto py-10 lg:py-24 h-auto min-h-[80vh] mt-24 px-10"
+      className="scroll-m-20 lg:scroll-m-28 max-w-containerxs mx-auto py-10 lg:py-24 h-auto min-h-[80vh] mt-24 px-10"
     >
       <SectionTitle title="Experiencia" />
       <div className="w-full mt-10 flex flex-col md:flex-row gap-16">

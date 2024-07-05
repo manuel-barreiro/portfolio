@@ -11,7 +11,7 @@ const About = () => {
   return (
     <section
       id="about"
-      className="max-w-containerSmall mx-auto lg:py-32 flex flex-col gap-8 scroll-mt-8 px-10 lg:px-24"
+      className="max-w-containerSmall mx-auto lg:py-32 flex flex-col gap-8 scroll-mt-32 lg:scroll-mt-0 px-10 lg:px-24"
     >
       <SectionTitle title="Sobre mí " />
       <div className="flex flex-col-reverse lg:flex-row gap-16">
