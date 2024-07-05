@@ -294,7 +294,7 @@ export const projects: Project[] = [
         image: "/icons/postgres.png",
       },
       {
-        id: 4,
+        id: 5,
         name: "Prisma",
         designation: "",
         image: "/icons/prisma.jpeg",

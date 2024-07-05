@@ -7,6 +7,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Manuel Barreiro",
   description: "Manuel Barreiro Portfolio",
+  themeColor: "#080c16",
 };
 
 // NextFonts
