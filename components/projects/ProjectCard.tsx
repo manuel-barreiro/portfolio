@@ -7,6 +7,7 @@ import { TbBrandGithub } from "react-icons/tb";
 import { RxOpenInNewWindow } from "react-icons/rx";
 import { Project } from "@/constants/projects";
 import { cn } from "@/utils/cn";
+import { AnimatedTooltip } from "../ui/animated-tooltip";
 
 function ProjectCard({
   category,
@@ -84,11 +85,9 @@ function ProjectCard({
           >
             {description}
           </p>
-          <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
-            {tools.map((tool, index) => (
-              <li key={index}>{tool}</li>
-            ))}
-          </ul>
+          <div className="flex flex-row items-center justify-end  w-full">
+            <AnimatedTooltip items={tools} />
+          </div>
           <div className="text-2xl flex gap-4">
             {github && (
               <a
