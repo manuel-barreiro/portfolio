@@ -88,7 +88,7 @@ function ProjectCard({
           <div className="flex flex-row items-center justify-start md:justify-end  w-full">
             <AnimatedTooltip items={tools} />
           </div>
-          <div className="text-2xl flex gap-4">
+          <div className="text-2xl flex gap-4 self-start md:self-auto">
             {github && (
               <a
                 className="hover:text-textGreen hover:scale-105 ease-in-out duration-300"
