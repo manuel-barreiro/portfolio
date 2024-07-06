@@ -70,7 +70,12 @@ function ProjectCard({
           </div>
         </a>
 
-        <div className="w-full lg:w-1/2 flex flex-col gap-4 lgl:justify-between items-end z-10">
+        <div
+          className={cn(
+            "w-full lg:w-1/2 flex flex-col gap-3 lg:justify-between lg:items-end z-10",
+            index != undefined && index % 2 === 0 ? "items-end" : "items-start"
+          )}
+        >
           <p className="font-titleFont text-textGreen text-xs sm:text-sm tracking-wide">
             {category}
           </p>
