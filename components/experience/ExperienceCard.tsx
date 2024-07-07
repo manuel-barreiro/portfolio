@@ -21,7 +21,7 @@ function ExperienceCard({
       transition={{ delay: 0.1 }}
       className="w-full flex flex-col-reverse sm:flex-row items-center gap-10"
     >
-      <GlareCard className="flex flex-col items-center justify-center px-5 w-[200px]">
+      <GlareCard className="flex flex-col items-center justify-center px-5">
         <Image src={image} alt={workPlace} priority />
       </GlareCard>
       <div className="w-full">
