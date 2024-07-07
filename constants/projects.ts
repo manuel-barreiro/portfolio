@@ -28,7 +28,8 @@ export const projects: Project[] = [
   {
     category: "Landing page",
     name: "Reformer Club",
-    description: "Landing page desarrollada para estudio de pilates y yoga.",
+    description:
+      "Landing page desarrollada para estudio de pilates y yoga. Smooth scroll con librería Lenis, animaciones con Framer Motion y diseño responsive. Desarrollado con Next.js y Typescript",
     image: reformer,
     tools: [
       {
@@ -146,6 +147,12 @@ export const projects: Project[] = [
         name: "TypeScript",
         designation: "",
         image: "/icons/ts.svg",
+      },
+      {
+        id: 4,
+        name: "Shadcn",
+        designation: "",
+        image: "/icons/shadcn.png",
       },
     ],
     href: "https://devaluapp.ar/",

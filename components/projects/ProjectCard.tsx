@@ -9,6 +9,16 @@ import { Project } from "@/constants/projects";
 import { cn } from "@/utils/cn";
 import { AnimatedTooltip } from "../ui/animated-tooltip";
 
+const leftVariant = {
+  initial: { x: 50, opacity: 0 },
+  animate: { x: 0, opacity: 1 },
+};
+
+const rightVariant = {
+  initial: { x: -50, opacity: 0 },
+  animate: { x: 0, opacity: 1 },
+};
+
 function ProjectCard({
   category,
   name,
@@ -19,18 +29,7 @@ function ProjectCard({
   github,
   index,
 }: Project) {
-  const leftVariant = {
-    initial: { x: 50, opacity: 0 },
-    animate: { x: 0, opacity: 1 },
-  };
-
-  const rightVariant = {
-    initial: { x: -50, opacity: 0 },
-    animate: { x: 0, opacity: 1 },
-  };
-
   let animationVariant = {};
-
   if (index != undefined && index % 2 === 0) {
     animationVariant = rightVariant;
   } else {
@@ -50,8 +49,8 @@ function ProjectCard({
         className={cn(
           "flex flex-col gap-4",
           index != undefined && index % 2 === 0
-            ? "lg:flex-row-reverse"
-            : "lg:flex-row"
+            ? "md:flex-row-reverse"
+            : "md:flex-row"
         )}
       >
         <a
@@ -72,7 +71,7 @@ function ProjectCard({
 
         <div
           className={cn(
-            "w-full lg:w-1/2 flex flex-col gap-3 lg:justify-between lg:items-end z-10",
+            "w-full lg:w-1/2 flex flex-col gap-3 lg:justify-between md:items-end z-10",
             index != undefined && index % 2 === 0 ? "items-end" : "items-start"
           )}
         >
@@ -85,7 +84,7 @@ function ProjectCard({
           <p
             className={cn(
               "bg-[#112240] backdrop-blur-xl text-sm md:text-base p-3 md:p-6 rounded-md text-justify",
-              index != undefined && index % 2 === 0 ? "lg:-mr-16" : "lg:-ml-16"
+              index != undefined && index % 2 === 0 ? "md:-mr-16" : "md:-ml-16"
             )}
           >
             {description}

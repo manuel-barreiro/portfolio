@@ -136,7 +136,7 @@ export default function ContactForm() {
                 </p>
               )}
               <MagicButton
-                onClick={onSubmit}
+                handleClick={onSubmit}
                 title="Enviar"
                 position="left"
                 icon={<GrMail />}
