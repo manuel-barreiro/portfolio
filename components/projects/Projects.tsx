@@ -1,12 +1,12 @@
-import SectionTitle from "./SectionTitle";
+import SectionTitle from "../SectionTitle";
 import { projects } from "@/constants/projects";
-import ProjectCard from "./projects/ProjectCard";
+import ProjectCard from "./ProjectCard";
 
 const Projects = () => {
   return (
     <section
       id="projects"
-      className="max-w-contentContainer mx-auto sm:px-10 lg:px-20 py-24 scroll-m-20 lg:scroll-m--[10vh]"
+      className="max-w-contentContainer mx-auto sm:px-10 lg:px-20 pt-36 scroll-m-20 lg:scroll-m--[10vh]"
     >
       <div className="px-6">
         <SectionTitle title="Proyectos recientes" />

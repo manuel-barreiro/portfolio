@@ -18,7 +18,7 @@ import {
   empresa_validation,
   cell_validation,
   cp_validation,
-} from "../utils/inputValidations";
+} from "../../utils/inputValidations";
 import { useState, useRef } from "react";
 import { GrMail } from "react-icons/gr";
 import {
@@ -29,7 +29,7 @@ import { TbBrandGithub } from "react-icons/tb";
 import { SlSocialLinkedin } from "react-icons/sl";
 import { AiOutlineWhatsApp } from "react-icons/ai";
 import emailjs from "@emailjs/browser";
-import MagicButton from "./MagicButton";
+import MagicButton from "../ui/MagicButton";
 
 export default function ContactForm() {
   const methods = useForm();
@@ -72,7 +72,7 @@ export default function ContactForm() {
   return (
     <section
       id="contact"
-      className="container px-8 md:px-32 mx-auto font-primary h-auto pb-20 w-full scroll-mt-20 md:scroll-mt-0"
+      className="container px-8 md:px-32 mx-auto font-primary h-auto pb-20 w-full scroll-mt-20 md:scroll-mt-0 pt-36"
     >
       <div className="flex flex-col items-center gap-4 text-center w-full mb-10">
         <h3 className="sm:text-4xl text-3xl font-bold mb-2 font-titleFont">

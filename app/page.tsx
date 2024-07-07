@@ -2,11 +2,11 @@
 import Navbar from "@/components/Navbar";
 import LeftSide from "@/components/LeftSide";
 import RightSide from "@/components/RightSide";
-import Banner from "@/components/Banner";
+import Hero from "@/components/Hero";
 import About from "@/components/About";
-import Experience from "@/components/Experience";
-import Projects from "@/components/Projects";
-import Form from "@/components/Form";
+import Experience from "@/components/experience/Experience";
+import Projects from "@/components/projects/Projects";
+import Form from "@/components/contact/Form";
 
 export default function Home() {
   return (
@@ -18,7 +18,7 @@ export default function Home() {
             <LeftSide />
           </div>
           <div className="h-auto mx-auto p-4">
-            <Banner />
+            <Hero />
             <About />
             <Experience />
             <Projects />

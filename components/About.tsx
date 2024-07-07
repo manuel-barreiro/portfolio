@@ -5,7 +5,7 @@ import { AiFillThunderbolt } from "react-icons/ai";
 import { profile } from "@/public";
 import { GlareCard } from "./ui/GlareCard";
 import { AnimatedTooltip } from "./ui/animated-tooltip";
-import { tools } from "@/constants/projects";
+import { tools } from "@/constants/tools";
 
 const About = () => {
   return (

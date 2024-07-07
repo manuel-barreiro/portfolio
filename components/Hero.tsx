@@ -2,8 +2,7 @@
 
 import { motion } from "framer-motion";
 import Link from "next/link";
-import { HeroGlobe } from "./Globe/HeroGlobe";
-import MagicButton from "./MagicButton";
+import MagicButton from "./ui/MagicButton";
 import { FaLocationArrow } from "react-icons/fa6";
 
 const Banner = () => {
@@ -28,7 +27,7 @@ const Banner = () => {
           transition={{ duration: 0.5, delay: 0.7 }}
           className="text-3xl sm:text-4xl md:text-5xl  lg:text-6xl font-titleFont font-semibold flex flex-col"
         >
-          Manuel Barreiro.{" "}
+          Manuel Barreiro{" "}
           <span className="text-textDark mt-2 lg:mt-4 text-2xl sm:text-4xl md:text-5xl lg:text-6xl">
             Ingeniero | Developer
           </span>
@@ -49,8 +48,6 @@ const Banner = () => {
           </motion.div>
         </Link>
       </div>
-
-      {/* <HeroGlobe /> */}
     </section>
   );
 };

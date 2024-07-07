@@ -1,3 +1,6 @@
+//Profile pic
+import profile from "./assets/profile.webp";
+//Projects
 import coccions from "./assets/coccions.webp";
 import power from "./assets/power.webp";
 import boxmoment from "./assets/boxmoment.webp";
@@ -8,9 +11,18 @@ import tablemaster from "./assets/tablemaster.webp";
 import zzautomotores from "./assets/zzautomotores.webp";
 import pokedex from "./assets/pokedex.webp";
 import reformer from "./assets/reformer.webp";
-import profile from "./assets/profile.webp";
+//Experience
+import nestle from "./experience/nestle.png";
+import freelance from "./experience/freelance.png";
+import weplan from "./experience/weplan.png";
+import iea from "./experience/iea.png";
+import ferrero from "./experience/ferrero.png";
 
 export {
+  //Profile pic
+  profile,
+
+  //Projects
   coccions,
   power,
   boxmoment,
@@ -21,5 +33,11 @@ export {
   zzautomotores,
   pokedex,
   reformer,
-  profile,
+
+  //Experience
+  nestle,
+  freelance,
+  weplan,
+  iea,
+  ferrero,
 };
