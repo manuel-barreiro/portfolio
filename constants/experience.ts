@@ -18,9 +18,9 @@ export const experience: ExperienceType[] = [
     position: "Front End Developer",
     image: nestle,
     mainTasks: [
-      "Developed and maintained company's apps using React",
-      "Collaborated with the design team to create a user-friendly interface",
-      "Quality assurance of the codebase and implementation of best practices",
+      "Desarrollo y manteninmiento de aplicaciones de la empresa",
+      "Colaboré con el equipo de diseño para crear una interfaz fácil de usar",
+      "Aseguramiento de la calidad del código e implementación de mejores prácticas",
     ],
   },
   {
@@ -36,7 +36,7 @@ export const experience: ExperienceType[] = [
   },
   {
     id: 2,
-    date: "Mayo 2022 - Deciembre 2023",
+    date: "Mayo 2022 - Diciembre 2023",
     workPlace: "We Plan",
     position: "Data Engineer",
     image: weplan,
