@@ -26,10 +26,10 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-    category: "Landing page",
+    category: "Payment & Booking System",
     name: "Reformer Club",
     description:
-      "Landing page desarrollada para estudio de pilates y yoga. Smooth scroll con librería Lenis, animaciones con Framer Motion y diseño responsive. Desarrollado con Next.js y Typescript",
+      "Desarrollo de landing page, sistema de pagos y reservas para estudio de pilates y yoga. Smooth scroll con librería Lenis, animaciones con Framer Motion y diseño responsive. Desarrollado con Next.js y Typescript. Prisma ORM y PostgreSQL para la base de datos.",
     image: reformer,
     tools: [
       {

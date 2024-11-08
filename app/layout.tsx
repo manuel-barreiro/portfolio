@@ -3,6 +3,7 @@ import "./globals.css";
 
 // Metadata
 import type { Metadata } from "next";
+import { Analytics } from "@vercel/analytics/react"
 
 export const metadata: Metadata = {
   title: "Manuel Barreiro",
@@ -42,14 +43,7 @@ export default function RootLayout({
       lang="en"
       className={`${inter.variable} ${unbounded.variable} scrollbar-hide`}
     >
-      {/* <Script src="https://scripts.simpleanalyticscdn.com/latest.js"  /> */}
-      {/* <noscript>
-        <img
-          src="https://queue.simpleanalyticscdn.com/noscript.gif"
-          alt=""
-          referrerPolicy="no-referrer-when-downgrade"
-        />
-      </noscript> */}
+      <Analytics />
       <body className="scrollbar-hide">{children}</body>
     </html>
   );

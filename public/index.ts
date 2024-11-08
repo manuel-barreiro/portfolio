@@ -10,7 +10,7 @@ import shortcut from "./assets/shortcut.webp";
 import tablemaster from "./assets/tablemaster.webp";
 import zzautomotores from "./assets/zzautomotores.webp";
 import pokedex from "./assets/pokedex.webp";
-import reformer from "./assets/reformer.webp";
+import reformer from "./assets/reformer2.png";
 //Experience
 import nestle from "./experience/nestle.png";
 import freelance from "./experience/freelance.png";

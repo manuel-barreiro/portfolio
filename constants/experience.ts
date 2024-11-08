@@ -18,9 +18,9 @@ export const experience: ExperienceType[] = [
     position: "Front End Developer",
     image: nestle,
     mainTasks: [
-      "Developed and maintained the frontend of the company’s website",
-      "Worked with the backend team to implement new features",
-      "Optimized the website for mobile devices",
+      "Developed and maintained company's apps using React",
+      "Collaborated with the design team to create a user-friendly interface",
+      "Quality assurance of the codebase and implementation of best practices",
     ],
   },
   {
