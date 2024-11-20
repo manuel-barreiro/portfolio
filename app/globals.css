@@ -2,11 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-html {
-  background-color: theme("colors.textDark");
-}
-
-
 /* For Webkit-based browsers (Chrome, Safari and Opera) */
 .scrollbar-hide::-webkit-scrollbar {
   display: none;
@@ -43,5 +38,6 @@ input[type=number] {
 html, body {
   overflow-x: hidden;
   max-width: 100%;
+  background-color: #080c15;
 }
 

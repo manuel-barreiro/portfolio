@@ -19,7 +19,7 @@ export const experience: ExperienceType[] = [
     image: nestle,
     mainTasks: [
       "Desarrollo y manteninmiento de aplicaciones de la empresa",
-      "Colaboré con el equipo de diseño para crear una interfaz fácil de usar",
+      "Colaboré con el equipo de diseño para crear UIs y UXs atractivas y funcionales",
       "Aseguramiento de la calidad del código e implementación de mejores prácticas",
     ],
   },

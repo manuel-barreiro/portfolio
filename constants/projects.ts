@@ -56,6 +56,30 @@ export const projects: Project[] = [
         designation: "",
         image: "/icons/tailwind.jpg",
       },
+      {
+        id: 5,
+        name: "Shadcn",
+        designation: "",
+        image: "/icons/shadcn.png",
+      },
+      {
+        id: 6,
+        name: "Resend",
+        designation: "",
+        image: "/icons/resend.webp",
+      },
+      {
+        id: 7,
+        name: "PostgreSQL",
+        designation: "",
+        image: "/icons/postgres.png",
+      },
+      {
+        id: 8,
+        name: "Prisma",
+        designation: "",
+        image: "/icons/prisma.jpeg",
+      },
     ],
     href: "https://www.reformer.com.ar/",
   },
@@ -155,7 +179,7 @@ export const projects: Project[] = [
         image: "/icons/shadcn.png",
       },
     ],
-    href: "https://devaluapp.ar/",
+    href: "https://devaluapp.vercel.app/",
     github: "https://github.com/manuel-barreiro/devaluapp",
   },
   {
@@ -193,117 +217,117 @@ export const projects: Project[] = [
     href: "https://zzautomotores.com.ar/",
     github: "https://github.com/manuel-barreiro/jmauto",
   },
-  {
-    category: "Landing page",
-    name: "Box Moment",
-    description:
-      "Diseño y desarrollo de landing page para una empresa de cajas de regalo de Navidad. Desarrollado en React utilizando Vite, con Tailwind CSS, y desplegado en el hosting de la empresa.",
-    image: boxmoment,
-    tools: [
-      {
-        id: 1,
-        name: "React",
-        designation: "",
-        image: "/icons/react.png",
-      },
-      {
-        id: 2,
-        name: "TailwindCSS",
-        designation: "",
-        image: "/icons/tailwind.jpg",
-      },
-      {
-        id: 3,
-        name: "JavaScript",
-        designation: "",
-        image: "/icons/js.png",
-      },
-      {
-        id: 4,
-        name: "Vite",
-        designation: "",
-        image: "/icons/vite.jpg",
-      },
-    ],
-    href: "https://boxmoment.com.ar/",
-    github: "https://github.com/manuel-barreiro/boxmoment",
-  },
-  {
-    category: "Aplicación web",
-    name: "TableMaster",
-    description:
-      "Desarrollo en progreso de aplicación para reservar mesas en restaurantes. Desarrollada utilizando Next.js y la librería de UI Shadcn.",
-    image: tablemaster,
-    tools: [
-      {
-        id: 1,
-        name: "Next.js",
-        designation: "",
-        image: "/icons/next.svg",
-      },
-      {
-        id: 2,
-        name: "TailwindCSS",
-        designation: "",
-        image: "/icons/tailwind.jpg",
-      },
-      {
-        id: 3,
-        name: "TypeScript",
-        designation: "",
-        image: "/icons/ts.svg",
-      },
-      {
-        id: 4,
-        name: "Shadcn",
-        designation: "",
-        image: "/icons/shadcn.png",
-      },
-    ],
-    href: "https://tablemaster.vercel.app/",
-    github: "https://github.com/manuel-barreiro/tablemaster",
-  },
-  {
-    category: "Aplicación web",
-    name: "RemindMe",
-    description:
-      "Una aplicación que permite a los usuarios crear y guardar recordatorios. Desarrollada en TypeScript con Next.js, aprovechando server actions, Tailwind CSS y Prisma con PostgreSQL.",
-    image: remindMe,
-    tools: [
-      {
-        id: 1,
-        name: "Next.js",
-        designation: "",
-        image: "/icons/next.svg",
-      },
-      {
-        id: 2,
-        name: "TailwindCSS",
-        designation: "",
-        image: "/icons/tailwind.jpg",
-      },
-      {
-        id: 3,
-        name: "TypeScript",
-        designation: "",
-        image: "/icons/ts.svg",
-      },
-      {
-        id: 4,
-        name: "PostgreSQL",
-        designation: "",
-        image: "/icons/postgres.png",
-      },
-      {
-        id: 5,
-        name: "Prisma",
-        designation: "",
-        image: "/icons/prisma.jpeg",
-      },
-    ],
-    href: "https://mb-remind-me.vercel.app/",
-    github: "https://github.com/manuel-barreiro/remind-me",
-  },
+  // {
+  //   category: "Landing page",
+  //   name: "Box Moment",
+  //   description:
+  //     "Diseño y desarrollo de landing page para una empresa de cajas de regalo de Navidad. Desarrollado en React utilizando Vite, con Tailwind CSS, y desplegado en el hosting de la empresa.",
+  //   image: boxmoment,
+  //   tools: [
+  //     {
+  //       id: 1,
+  //       name: "React",
+  //       designation: "",
+  //       image: "/icons/react.png",
+  //     },
+  //     {
+  //       id: 2,
+  //       name: "TailwindCSS",
+  //       designation: "",
+  //       image: "/icons/tailwind.jpg",
+  //     },
+  //     {
+  //       id: 3,
+  //       name: "JavaScript",
+  //       designation: "",
+  //       image: "/icons/js.png",
+  //     },
+  //     {
+  //       id: 4,
+  //       name: "Vite",
+  //       designation: "",
+  //       image: "/icons/vite.jpg",
+  //     },
+  //   ],
+  //   href: "https://boxmoment.com.ar/",
+  //   github: "https://github.com/manuel-barreiro/boxmoment",
+  // },
+  // {
+  //   category: "Aplicación web",
+  //   name: "TableMaster",
+  //   description:
+  //     "Desarrollo en progreso de aplicación para reservar mesas en restaurantes. Desarrollada utilizando Next.js y la librería de UI Shadcn.",
+  //   image: tablemaster,
+  //   tools: [
+  //     {
+  //       id: 1,
+  //       name: "Next.js",
+  //       designation: "",
+  //       image: "/icons/next.svg",
+  //     },
+  //     {
+  //       id: 2,
+  //       name: "TailwindCSS",
+  //       designation: "",
+  //       image: "/icons/tailwind.jpg",
+  //     },
+  //     {
+  //       id: 3,
+  //       name: "TypeScript",
+  //       designation: "",
+  //       image: "/icons/ts.svg",
+  //     },
+  //     {
+  //       id: 4,
+  //       name: "Shadcn",
+  //       designation: "",
+  //       image: "/icons/shadcn.png",
+  //     },
+  //   ],
+  //   href: "https://tablemaster.vercel.app/",
+  //   github: "https://github.com/manuel-barreiro/tablemaster",
+  // },
+  // {
+  //   category: "Aplicación web",
+  //   name: "RemindMe",
+  //   description:
+  //     "Una aplicación que permite a los usuarios crear y guardar recordatorios. Desarrollada en TypeScript con Next.js, aprovechando server actions, Tailwind CSS y Prisma con PostgreSQL.",
+  //   image: remindMe,
+  //   tools: [
+  //     {
+  //       id: 1,
+  //       name: "Next.js",
+  //       designation: "",
+  //       image: "/icons/next.svg",
+  //     },
+  //     {
+  //       id: 2,
+  //       name: "TailwindCSS",
+  //       designation: "",
+  //       image: "/icons/tailwind.jpg",
+  //     },
+  //     {
+  //       id: 3,
+  //       name: "TypeScript",
+  //       designation: "",
+  //       image: "/icons/ts.svg",
+  //     },
+  //     {
+  //       id: 4,
+  //       name: "PostgreSQL",
+  //       designation: "",
+  //       image: "/icons/postgres.png",
+  //     },
+  //     {
+  //       id: 5,
+  //       name: "Prisma",
+  //       designation: "",
+  //       image: "/icons/prisma.jpeg",
+  //     },
+  //   ],
+  //   href: "https://mb-remind-me.vercel.app/",
+  //   github: "https://github.com/manuel-barreiro/remind-me",
+  // },
   {
     category: "Landing page y catálogo web",
     name: "Coccions",

@@ -229,7 +229,7 @@ function Navbar() {
                     </motion.li>
                   </Link>
                 </ul>
-                <a href="/assets/resumeManuelBarreiro.pdf" target="_blank">
+                {/* <a href="/assets/resumeManuelBarreiro.pdf" target="_blank">
                   <motion.button
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
@@ -238,7 +238,7 @@ function Navbar() {
                   >
                     CV
                   </motion.button>
-                </a>
+                </a> */}
                 <div className="flex gap-6">
                   <a href="mailto:ing.mbarreiro@gmail.com?Subject=Consulta">
                     <span className="w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300">
