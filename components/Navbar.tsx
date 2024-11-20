@@ -104,7 +104,7 @@ function Navbar() {
               </motion.li>
             </Link>
           </ul>
-          <a href="/assets/resumeManuelBarreiro.pdf" target="_blank">
+          {/* <a href="/assets/resumeManuelBarreiro.pdf" target="_blank">
             <motion.button
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
@@ -113,7 +113,7 @@ function Navbar() {
             >
               CV
             </motion.button>
-          </a>
+          </a> */}
         </div>
         {/* Small Icon section */}
 
