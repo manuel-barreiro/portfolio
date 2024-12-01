@@ -115,7 +115,7 @@ export const projects: Project[] = [
         image: "/icons/mongodb.png",
       },
     ],
-    href: "https://shortcut.com.ar/",
+    href: "https://shortcut-nigeria.vercel.app/",
     github: "https://github.com/manuel-barreiro/InTime",
   },
   {
@@ -182,41 +182,41 @@ export const projects: Project[] = [
     href: "https://devaluapp.vercel.app/",
     github: "https://github.com/manuel-barreiro/devaluapp",
   },
-  {
-    category: "Landing Page",
-    name: "Z&Z Automotores",
-    description:
-      "Diseño y desarrollo de una landing page para un concesionario de autos. Desarrollado con Next.js y estilizado con Tailwind CSS. Envío de correos con Resend.",
-    image: zzautomotores,
-    tools: [
-      {
-        id: 1,
-        name: "Next.js",
-        designation: "",
-        image: "/icons/next.svg",
-      },
-      {
-        id: 2,
-        name: "TailwindCSS",
-        designation: "",
-        image: "/icons/tailwind.jpg",
-      },
-      {
-        id: 3,
-        name: "TypeScript",
-        designation: "",
-        image: "/icons/ts.svg",
-      },
-      {
-        id: 4,
-        name: "Resend",
-        designation: "",
-        image: "/icons/resend.webp",
-      },
-    ],
-    href: "https://zzautomotores.com.ar/",
-    github: "https://github.com/manuel-barreiro/jmauto",
-  },
+  // {
+  //   category: "Landing Page",
+  //   name: "Z&Z Automotores",
+  //   description:
+  //     "Diseño y desarrollo de una landing page para un concesionario de autos. Desarrollado con Next.js y estilizado con Tailwind CSS. Envío de correos con Resend.",
+  //   image: zzautomotores,
+  //   tools: [
+  //     {
+  //       id: 1,
+  //       name: "Next.js",
+  //       designation: "",
+  //       image: "/icons/next.svg",
+  //     },
+  //     {
+  //       id: 2,
+  //       name: "TailwindCSS",
+  //       designation: "",
+  //       image: "/icons/tailwind.jpg",
+  //     },
+  //     {
+  //       id: 3,
+  //       name: "TypeScript",
+  //       designation: "",
+  //       image: "/icons/ts.svg",
+  //     },
+  //     {
+  //       id: 4,
+  //       name: "Resend",
+  //       designation: "",
+  //       image: "/icons/resend.webp",
+  //     },
+  //   ],
+  //   href: "https://zzautomotores.com.ar/",
+  //   github: "https://github.com/manuel-barreiro/jmauto",
+  // },
   // {
   //   category: "Landing page",
   //   name: "Box Moment",
@@ -328,62 +328,62 @@ export const projects: Project[] = [
   //   href: "https://mb-remind-me.vercel.app/",
   //   github: "https://github.com/manuel-barreiro/remind-me",
   // },
-  {
-    category: "Landing page y catálogo web",
-    name: "Coccions",
-    description:
-      "Diseño y desarrollo de una catálogo web para empresa de pastelería. Desarrollado utilizando vanilla JavaScript, y CSS.",
-    image: coccions,
-    tools: [
-      {
-        id: 1,
-        name: "HTML",
-        designation: "",
-        image: "/icons/html.png",
-      },
-      {
-        id: 2,
-        name: "CSS",
-        designation: "",
-        image: "/icons/css.webp",
-      },
-      {
-        id: 3,
-        name: "JavaScript",
-        designation: "",
-        image: "/icons/js.png",
-      },
-    ],
-    href: "https://coccions.netlify.app/",
-    github: "https://github.com/manuel-barreiro/Coccions",
-  },
-  {
-    category: "Aplicación Web",
-    name: "MB Pokédex",
-    description:
-      "Prueba técnica realizada en 48hs para puesto de frontend developer. Lazy loading, infinite scroll. ",
-    image: pokedex,
-    tools: [
-      {
-        id: 1,
-        name: "Next.js",
-        designation: "",
-        image: "/icons/next.svg",
-      },
-      {
-        id: 2,
-        name: "TypeScript",
-        designation: "",
-        image: "/icons/ts.svg",
-      },
-      {
-        id: 3,
-        name: "ChakraUI",
-        designation: "",
-        image: "/icons/chakra.png",
-      },
-    ],
-    href: "https://mb-pokedex.vercel.app/",
-    github: "https://github.com/manuel-barreiro/pokemon-app",
-  },
+  // {
+  //   category: "Landing page y catálogo web",
+  //   name: "Coccions",
+  //   description:
+  //     "Diseño y desarrollo de una catálogo web para empresa de pastelería. Desarrollado utilizando vanilla JavaScript, y CSS.",
+  //   image: coccions,
+  //   tools: [
+  //     {
+  //       id: 1,
+  //       name: "HTML",
+  //       designation: "",
+  //       image: "/icons/html.png",
+  //     },
+  //     {
+  //       id: 2,
+  //       name: "CSS",
+  //       designation: "",
+  //       image: "/icons/css.webp",
+  //     },
+  //     {
+  //       id: 3,
+  //       name: "JavaScript",
+  //       designation: "",
+  //       image: "/icons/js.png",
+  //     },
+  //   ],
+  //   href: "https://coccions.netlify.app/",
+  //   github: "https://github.com/manuel-barreiro/Coccions",
+  // },
+  // {
+  //   category: "Aplicación Web",
+  //   name: "MB Pokédex",
+  //   description:
+  //     "Prueba técnica realizada en 48hs para puesto de frontend developer. Lazy loading, infinite scroll. ",
+  //   image: pokedex,
+  //   tools: [
+  //     {
+  //       id: 1,
+  //       name: "Next.js",
+  //       designation: "",
+  //       image: "/icons/next.svg",
+  //     },
+  //     {
+  //       id: 2,
+  //       name: "TypeScript",
+  //       designation: "",
+  //       image: "/icons/ts.svg",
+  //     },
+  //     {
+  //       id: 3,
+  //       name: "ChakraUI",
+  //       designation: "",
+  //       image: "/icons/chakra.png",
+  //     },
+  //   ],
+  //   href: "https://mb-pokedex.vercel.app/",
+  //   github: "https://github.com/manuel-barreiro/pokemon-app",
+  // },
 ];
